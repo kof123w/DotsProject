@@ -1,0 +1,8 @@
+E:\UnityWorkSpace\LearnDots2D1\Temp\bin\Debug\Assembly-CSharp-Editor.dll
+E:\UnityWorkSpace\LearnDots2D1\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
+E:\UnityWorkSpace\LearnDots2D1\Temp\bin\Debug\Assembly-CSharp.pdb
+E:\UnityWorkSpace\LearnDots2D1\obj\Debug\Assembly-CSharp-Editor.csproj.AssemblyReference.cache
+E:\UnityWorkSpace\LearnDots2D1\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+E:\UnityWorkSpace\LearnDots2D1\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
+E:\UnityWorkSpace\LearnDots2D1\obj\Debug\Assembly-CSharp-Editor.dll
+E:\UnityWorkSpace\LearnDots2D1\obj\Debug\Assembly-CSharp-Editor.pdb
