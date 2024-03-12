@@ -110,7 +110,7 @@ public partial struct EnemySystem : ISystem
                 sortEnabledRefRw.ValueRW = false;
                 animationFrameIndexEnable.ValueRW = false;
                 localTransform.Scale = 0;
-                //agentBody.Stop();
+                agentBody.Stop();
                 return;
             }
             

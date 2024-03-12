@@ -23,8 +23,7 @@ public class EnemyAuthoring : MonoBehaviour
                 MoveSpeed = authoring.MoveSpeed,
                 Scale = (Vector2)authoring.transform.localScale,
             });
-            
-            Debug.Log("查看敌人烘培的频率=。=");
+             
         }
     }
 }

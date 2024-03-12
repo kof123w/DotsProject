@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 2228342108823736371}
   - component: {fileID: -2339490679852676119}
   - component: {fileID: 7497433697766552874}
-  - component: {fileID: -3889643371052312173}
-  - component: {fileID: -4958288060751620269}
-  - component: {fileID: 6000289509135079639}
-  - component: {fileID: 5488710421735811698}
+  - component: {fileID: -1188809017997838919}
+  - component: {fileID: 7575504137333210199}
+  - component: {fileID: -2819117685250001858}
+  - component: {fileID: 1419799383566640210}
   m_Layer: 6
   m_Name: Bee
   m_TagString: Untagged
@@ -139,7 +139,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.16215736
   m_Center: {x: 0, y: 0.042421084, z: 0}
---- !u!114 &-3889643371052312173
+--- !u!114 &-1188809017997838919
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,7 +158,7 @@ MonoBehaviour:
   StoppingDistance: 0.1
   AutoBreaking: 1
   m_Layers: 1
---- !u!114 &-4958288060751620269
+--- !u!114 &7575504137333210199
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 0.15
---- !u!114 &6000289509135079639
+--- !u!114 &-2819117685250001858
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,7 +186,7 @@ MonoBehaviour:
   Radius: 0.2
   Weight: 1
   m_Layers: -1
---- !u!114 &5488710421735811698
+--- !u!114 &1419799383566640210
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

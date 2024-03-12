@@ -2,7 +2,7 @@
 using Unity.Burst;
 using Unity.Entities;
 
-public partial struct  AnimationSystem : ISystem
+public partial struct  sAnimationSystem : ISystem
 {
     public void OnCreate(ref SystemState state)
     {

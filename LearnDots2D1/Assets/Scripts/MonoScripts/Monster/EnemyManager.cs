@@ -1,10 +1,13 @@
 ﻿using System.Collections.Generic;
 using ProjectDawn.Navigation;
+using ProjectDawn.Navigation.Hybrid;
 using UnityEditor;
 using UnityEngine;
 using Unity.Mathematics;
 using Unity.Physics;
 using Unity.VisualScripting;
+using UnityEngine.AI;
+using Material = UnityEngine.Material;
 using Random = Unity.Mathematics.Random;
 
 
@@ -23,7 +26,7 @@ public class EnemyManager : UnitySingleton<EnemyManager>
     private float m_spawnInterval;
     private float m_spawnCount;
     private float m_curSpawnTime = 0.0f;
-
+    public Transform PlayerTransform;
     private float m_radiusPow = 0.1f; 
     
     private List<Enemy> m_actMonsterList = new List<Enemy>();
@@ -35,12 +38,12 @@ public class EnemyManager : UnitySingleton<EnemyManager>
     private int m_curCreateCount = 0;
     private GameObject EnemyPrefab;
     public Vector3 PlayerPos;
-    private Random m_random = new Random((uint)System.DateTime.Now.GetHashCode());
-
+    private Random m_random = new Random((uint)System.DateTime.Now.GetHashCode()); 
+    
     public override void Awake()
     {
         GameObject g = new GameObject("EnemyPoolRoot");
-        m_enemyPoolTrans = g.transform;
+        m_enemyPoolTrans = g.transform; 
 
         GameObject g2 = GameObject.Find("WorldPoolRoot");
         if (g2 != null)
@@ -79,8 +82,7 @@ public class EnemyManager : UnitySingleton<EnemyManager>
 
         CheckMove(ref d);
     }
-
-    private Agent _agent;
+ 
     private void CheckMove(ref float d) 
     {
         Enemy enemy;
@@ -96,8 +98,11 @@ public class EnemyManager : UnitySingleton<EnemyManager>
                 continue; 
             }
 
-            var dir = PlayerPos - enemy.trans.position;
-            enemy.trans.position += d * dir.normalized * MoveSpeed;
+           // var dir = PlayerPos - enemy.trans.position;
+            /*Vector3 pos = enemy.trans.position +  
+            enemy.trans.position += d * dir.normalized * MoveSpeed; */
+             enemy.SetDestination(ref PlayerPos);
+             enemy.PlayAnimation(ref d);
             CheckDir(ref enemy);
         }
     }
@@ -113,10 +118,12 @@ public class EnemyManager : UnitySingleton<EnemyManager>
                 continue;
             }
             
+            
             float2 offset = m_random.NextFloat2Direction() * m_random.NextFloat2(5f, 10);
-            enemy.trans.position = new Vector3(offset.x + PlayerPos.x, offset.y + PlayerPos.y, offset.y + PlayerPos.y);
+            enemy.trans.position = new Vector3(offset.x + PlayerPos.x, offset.y + PlayerPos.y, offset.y + PlayerPos.y); 
+            enemy.SetDestination(ref PlayerPos); 
             CheckDir(ref enemy);
-            m_actMonsterList.Add(enemy);
+            m_actMonsterList.Add(enemy); 
         }
     }
 
@@ -158,13 +165,14 @@ public class EnemyManager : UnitySingleton<EnemyManager>
         enemy.trans.SetParent(m_enemyPoolTrans);
         m_enemyPool.Push(enemy); 
     }
-     
+
+    private List<Enemy> GetObjects = new List<Enemy>();
     //传子弹进来计算击中的怪物
     public bool CheckHit(ref Bullet bullet)
     {
         Vector3 pos = bullet.trans.position;
         Vector3 enemyPos;
-        Enemy enemy;
+        Enemy enemy; 
         for (int i = 0;i < m_actMonsterList.Count;i++)
         {
             enemy = m_actMonsterList[i];
@@ -186,11 +194,27 @@ public class EnemyManager : UnitySingleton<EnemyManager>
     }
 }
 
-class Enemy : GameObjectBase
+public class Enemy : GameObjectBase
 { 
     private bool IsDie;
+    private AgentAuthoring m_agentAuthoring;
+    private Transform m_modelTrans;
+    private MeshRenderer m_meshRender;
+    private static MaterialPropertyBlock MaterialProperty = new MaterialPropertyBlock();
+    
     public void Init()
-    { 
+    {
+        if (m_agentAuthoring == null)
+        {
+            m_agentAuthoring=gobj.GetComponent<AgentAuthoring>();
+        }
+
+        if (m_modelTrans == null)
+        {
+            m_modelTrans = trans.Find("Model");
+            m_meshRender = m_modelTrans.GetComponent<MeshRenderer>();
+        }
+
         IsDie = false;
     }
 
@@ -202,5 +226,25 @@ class Enemy : GameObjectBase
     public bool GetIsDie()
     {
         return IsDie;
+    }
+    
+    public void SetDestination(ref Vector3 pos) {
+        m_agentAuthoring.SetDestination(pos);
+    }
+
+    private float value = 0;
+    public void PlayAnimation(ref float d)
+    {
+        float newIndex = value + d * 8;
+
+        while (newIndex > 7)
+        {
+            if (newIndex > 7) newIndex -= 7;
+        }
+
+        value = newIndex;
+        m_meshRender.GetPropertyBlock(MaterialProperty);
+        MaterialProperty.SetFloat("_Index",value);
+        m_meshRender.SetPropertyBlock(MaterialProperty);
     }
 }

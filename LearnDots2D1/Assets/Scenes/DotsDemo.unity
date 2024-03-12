@@ -288,7 +288,7 @@ MonoBehaviour:
   MoveRangeLeftBottom: {x: 0.23, y: 0.6}
   MoveRangeRightTop: {x: 43.41, y: 20.12}
   GunRoot: {fileID: 1964186344}
-  Lv: 10
+  Lv: 50
   SpawnMonsterIntervalMultiply: 4
   SpawnMonsterQuantityMultiply: 0.5
 --- !u!4 &636107391 stripped

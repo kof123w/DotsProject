@@ -15,9 +15,9 @@ public class MonoPlayerController : MonoBehaviour
     [SerializeField] public Transform GunRoot;
     [SerializeField] private int Lv = 1;
     
-    public int BulletQuantity
+    public int BulletQuantity 
     {
-        get => Lv;
+        get => Lv; 
     }
 
     public float AttackCD
@@ -34,6 +34,7 @@ public class MonoPlayerController : MonoBehaviour
             EnemyManager.Instance.SetSpawnInterval = 10f / Lv * SpawnMonsterIntervalMultiply;
             EnemyManager.Instance.SetSpawnCount = (int) (Lv * 5 * SpawnMonsterQuantityMultiply);
             EnemyManager.Instance.PlayerPos = m_trans.position;
+            EnemyManager.Instance.PlayerTransform = m_trans;
         }
         
     }
@@ -69,7 +70,7 @@ public class MonoPlayerController : MonoBehaviour
     }
 
     private void Awake()
-    {
+    { 
         m_gObj = gameObject;
         m_trans = transform;
         GetLv = Lv;  
