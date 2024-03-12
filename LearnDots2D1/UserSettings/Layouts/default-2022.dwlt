@@ -14,41 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 873
-    y: 727
-    width: 2111
-    height: 573
-  m_ShowMode: 0
-  m_Title: Burst Inspector
-  m_RootView: {fileID: 5}
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: -1490
-    y: 217
+    x: 396
+    y: 595
     width: 1264
-    height: 778
+    height: 971
   m_ShowMode: 0
   m_Title: Profiler
-  m_RootView: {fileID: 7}
+  m_RootView: {fileID: 4}
   m_MinSize: {x: 900, y: 237}
   m_MaxSize: {x: 4000, y: 4021}
   m_Maximized: 0
---- !u!114 &3
+--- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -62,67 +38,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 43
     width: 1920
-    height: 989
+    height: 1007
   m_ShowMode: 4
-  m_Title: Project
-  m_RootView: {fileID: 8}
+  m_Title: Game
+  m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: BurstInspectorGUI
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 2111
-    height: 573
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 2111
-    height: 573
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
-  vertical: 0
-  controlID: 2849
---- !u!114 &6
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,15 +66,15 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1264
-    height: 778
+    height: 971
   m_MinSize: {x: 900, y: 237}
   m_MaxSize: {x: 4000, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &7
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,18 +87,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1264
-    height: 778
+    height: 971
   m_MinSize: {x: 900, y: 237}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 1376
---- !u!114 &8
+  controlID: 14902
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,22 +111,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 10}
-  - {fileID: 11}
+  - {fileID: 6}
+  - {fileID: 7}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1920
-    height: 989
+    height: 1007
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &9
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &10
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -235,21 +161,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 9}
+  - {fileID: 10}
+  - {fileID: 11}
   - {fileID: 12}
-  - {fileID: 13}
-  - {fileID: 14}
-  - {fileID: 15}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1920
-    height: 939
+    height: 957
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 16
---- !u!114 &11
+  controlID: 210
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -265,12 +191,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 969
+    y: 987
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &12
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -283,19 +209,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 16}
-  - {fileID: 17}
+  - {fileID: 13}
+  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1139
-    height: 939
+    width: 841
+    height: 957
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
   controlID: 17
---- !u!114 &13
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -305,23 +231,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1139
+    x: 841
     y: 0
-    width: 192
-    height: 939
+    width: 295
+    height: 957
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &14
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -336,18 +262,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1331
+    x: 1136
     y: 0
-    width: 132
-    height: 939
+    width: 253
+    height: 957
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 23}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &15
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,18 +288,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1463
+    x: 1389
     y: 0
-    width: 457
-    height: 939
+    width: 531
+    height: 957
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 22}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &16
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -390,17 +316,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1139
-    height: 351
+    width: 841
+    height: 434
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 25}
-  - {fileID: 20}
+  - {fileID: 21}
+  - {fileID: 16}
   m_Selected: 1
   m_LastSelected: 0
---- !u!114 &17
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -410,971 +336,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 351
-    width: 1139
-    height: 588
+    y: 434
+    width: 841
+    height: 523
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 24}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 24}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 044207dff891379ab68ba54b0d4307b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Burst Inspector
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 873
-    y: 727
-    width: 2111
-    height: 552
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  _targetCpu: 0
-  _disasmKind: 0
-  _oldDisasmKind: 0
-  _previousTargetIndex: 3
-  _safetyChecks: 0
-  _showBranchMarkers: 1
-  _enhancedDisassembly: 1
-  _searchFilterJobs: 
-  _showUnityNamespaceJobs: 0
-  _showDOTSGeneratedJobs: 0
-  _focusTargetJob: 1
-  _searchFilterAssembly: 
-  _sameTargetButDifferentAssemblyKind: 1
-  _scrollPos: {x: 0, y: 114634}
-  _searchBarVisible: 1
-  _selectedItem: EnemySystem.EnemyJob - (IJobChunk)
-  targetNames:
-  - AnimationSystem.AnimationJob - (IJobChunk)
-  - BulletSystem.BulletJob - (IJobChunk)
-  - EnemySystem.EnemyJob - (IJobChunk)
-  - PaintDotNet.Data.PhotoshopFileType.PDNAlphaMaskJob - (IJob)
-  - PaintDotNet.Data.PhotoshopFileType.PDNDecoderJob - (IJobParallelFor)
-  - ProjectDawn.Navigation.AgentColliderJob - (IJobChunk)
-  - ProjectDawn.Navigation.AgentColliderSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.AgentFlockSystem.AgentFlockSystem_621FF34E_LambdaJob_0_Job
-    - (IJobChunk)
-  - ProjectDawn.Navigation.AgentForceSystem.AgentForceJob - (IJobChunk)
-  - ProjectDawn.Navigation.AgentForceSystem.__codegen__OnUpdate(System.IntPtr, System.IntPtr)
-  - ProjectDawn.Navigation.AgentLocomotionSystem.AgentLocomotionJob - (IJobChunk)
-  - ProjectDawn.Navigation.AgentLocomotionSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.AgentReciprocalAvoidSystem.AgentReciprocalAvoidJob - (IJobChunk)
-  - ProjectDawn.Navigation.AgentReciprocalAvoidSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.AgentSeekingSystem.AgentSeekingJob - (IJobChunk)
-  - ProjectDawn.Navigation.AgentSeekingSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.AgentSeparationSystem.AgentSeparationJob - (IJobChunk)
-  - ProjectDawn.Navigation.AgentSeparationSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.AgentSmartStopSystem.AgentSmartStopJob - (IJobChunk)
-  - ProjectDawn.Navigation.AgentSmartStopSystem.__codegen__OnCreate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.AgentSmartStopSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.AgentSonarAvoidSystem.AgentAvoidJob - (IJobChunk)
-  - ProjectDawn.Navigation.AgentSonarAvoidSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.AgentSpatialPartitioningSystem.__codegen__OnDestroy(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.AgentSpatialPartitioningSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.AgentSteeringSystem.AgentSteeringJob - (IJobChunk)
-  - ProjectDawn.Navigation.AgentSteeringSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.ChangeCapacityJob - (IJob)
-  - ProjectDawn.Navigation.ClearJob - (IJob)
-  - ProjectDawn.Navigation.CopyJob - (IJobChunk)
-  - ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.AgentAvoidJob - (IJobChunk)
-  - ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.Job - (IJobChunk)
-  - ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.SmartStopGizmosJob -
-    (IJobChunk)
-  - ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.Job - (IJobChunk)
-  - ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.Job - (IJobChunk)
-  - ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.FlockGroupSystem.FlockGroupJob - (IJobChunk)
-  - ProjectDawn.Navigation.FlockGroupSystem.__codegen__OnCreate(System.IntPtr, System.IntPtr)
-  - ProjectDawn.Navigation.FlockGroupSystem.__codegen__OnUpdate(System.IntPtr, System.IntPtr)
-  - ProjectDawn.Navigation.GizmosSystem.__codegen__OnCreate(System.IntPtr, System.IntPtr)
-  - ProjectDawn.Navigation.GizmosSystem.__codegen__OnDestroy(System.IntPtr, System.IntPtr)
-  - ProjectDawn.Navigation.GizmosSystem.__codegen__OnUpdate(System.IntPtr, System.IntPtr)
-  - ProjectDawn.Navigation.HashJob - (IJobChunk)
-  - ProjectDawn.Navigation.HashShapeJob - (IJobChunk)
-  - ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.SetDestinationJob
-    - (IJob)
-  - ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.ReadAgentTransformJob
-    - (IJobParallelForTransform)
-  - ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem.ReadAgentTransformJob
-    - (IJobParallelForTransform)
-  - ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.WriteAgentTransformJob
-    - (IJobParallelForTransform)
-  - ProjectDawn.Navigation.Hybrid.WriteAgentTransformSystem.WriteAgentTransformJob
-    - (IJobParallelForTransform)
-  - ProjectDawn.Navigation.NavMeshBoundarySystem.NavMeshBoundaryJob - (IJobChunk)
-  - ProjectDawn.Navigation.NavMeshBoundarySystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.NavMeshDisplacementSystem.NavMeshPositionJob - (IJobChunk)
-  - ProjectDawn.Navigation.NavMeshDisplacementSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.NavMeshPathSystem.NavMeshPathJob - (IJobChunk)
-  - ProjectDawn.Navigation.NavMeshPathSystem.__codegen__OnUpdate(System.IntPtr, System.IntPtr)
-  - ProjectDawn.Navigation.NavMeshQuerySystem.NavMeshQueryJob - (IJob)
-  - ProjectDawn.Navigation.NavMeshQuerySystem.__codegen__OnDestroy(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.NavMeshQuerySystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - ProjectDawn.Navigation.NavMeshSteeringSystem.NavMeshSteeringJob - (IJobChunk)
-  - ProjectDawn.Navigation.NavMeshSteeringSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - RendererSortSystem.RendererSortJob - (IJobChunk)
-  - TransformBakingSystem.BakedRuntimeTransformsJob - (IJobChunk)
-  - TransformBakingSystem.BakedRuntimeTransformsJob.IsUniformScale(Unity.Mathematics.float3&)
-  - Unity.Burst.Intrinsics.X86.DoGetCSRTrampoline()
-  - Unity.Burst.Intrinsics.X86.DoSetCSRTrampoline(int)
-  - Unity.Collections.AllocatorManager.SlabAllocator.Try(System.IntPtr, Unity.Collections.AllocatorManager.Block&)
-  - Unity.Collections.AllocatorManager.StackAllocator.Try(System.IntPtr, Unity.Collections.AllocatorManager.Block&)
-  - Unity.Collections.AutoFreeAllocator.Try(System.IntPtr, Unity.Collections.AllocatorManager.Block&)
-  - Unity.Collections.CollectionHelper.DummyJob - (IJob)
-  - Unity.Collections.LowLevel.Unsafe.UnsafeDisposeJob - (IJob)
-  - Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataDisposeJob - (IJob)
-  - Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDisposeJob - (IJob)
-  - Unity.Collections.LowLevel.Unsafe.UnsafeStream.ConstructJob - (IJob)
-  - Unity.Collections.LowLevel.Unsafe.UnsafeStream.ConstructJobList - (IJob)
-  - Unity.Collections.LowLevel.Unsafe.UnsafeStream.DisposeJob - (IJob)
-  - Unity.Collections.NativeArrayDisposeJob - (IJob)
-  - Unity.Collections.NativeBitArrayDisposeJob - (IJob)
-  - Unity.Collections.NativeHashMapDisposeJob - (IJob)
-  - Unity.Collections.NativeListDisposeJob - (IJob)
-  - Unity.Collections.NativeQueueDisposeJob - (IJob)
-  - Unity.Collections.NativeReferenceDisposeJob - (IJob)
-  - Unity.Collections.NativeRingQueueDisposeJob - (IJob)
-  - Unity.Collections.NativeStream.ConstructJob - (IJob)
-  - Unity.Collections.NativeStream.ConstructJobList - (IJob)
-  - Unity.Collections.NativeStreamDisposeJob - (IJob)
-  - Unity.Collections.NativeTextDisposeJob - (IJob)
-  - Unity.Collections.RewindableAllocator.Try(System.IntPtr, Unity.Collections.AllocatorManager.Block&)
-  - Unity.Collections.UnsafeQueueDisposeJob - (IJob)
-  - Unity.Collections.xxHash3.Hash128Long(System.Byte*, System.Byte*, long, System.Byte*,
-    Unity.Mathematics.uint4&)
-  - Unity.Collections.xxHash3.Hash64Long(System.Byte*, System.Byte*, long, System.Byte*)
-  - Unity.Entities.BakedEntityData.ApplyActiveStaticStateJob - (IJobParallelFor)
-  - Unity.Entities.BakedEntityData.FindDeletedEntitiesJob - (IJob)
-  - Unity.Entities.BakedEntityData.UpdateReferencedEntitiesJob - (IJobChunk)
-  - Unity.Entities.Baking.BakeDependencies.AddDependencies(Unity.Entities.Baking.BakeDependencies&,
-    int, Unity.Entities.Baking.BakeDependencies.RecordedDependencies&)
-  - Unity.Entities.Baking.BakeDependencies.CalculateActiveDependenciesJob - (IJobParallelFor)
-  - Unity.Entities.Baking.BakeDependencies.CalculateAssetDependenciesJob - (IJobParallelFor)
-  - Unity.Entities.Baking.BakeDependencies.CalculateIsStaticDependenciesJob - (IJobParallelFor)
-  - Unity.Entities.Baking.BakeDependencies.CalculateObjectExistDiffsJob - (IJobParallelFor)
-  - Unity.Entities.Baking.BakeDependencies.CalculateReverseGameObjectPropertyChangeDependencyJob
-    - (IJob)
-  - Unity.Entities.Baking.BakeDependencies.CalculateReversePropertyChangeDependencyJob
-    - (IJob)
-  - Unity.Entities.Baking.BakeDependencies.CalculateStructuralGetComponentDependencyJob
-    - (IJobParallelFor)
-  - Unity.Entities.Baking.BakeDependencies.CalculateStructuralGetComponentsDependencyJob
-    - (IJobParallelFor)
-  - Unity.Entities.Baking.BakeDependencies.CalculateStructuralGetHierarchyDependencyJob
-    - (IJobParallelFor)
-  - Unity.Entities.Baking.BakeDependencies.CalculateStructuralGetHierarchySingleDependencyJob
-    - (IJobParallelFor)
-  - Unity.Entities.Baking.BakeDependencies.NonStructuralChangedAssetsJob - (IJobParallelFor)
-  - Unity.Entities.Baking.BakeDependencies.NonStructuralChangedComponentJob - (IJobParallelFor)
-  - Unity.Entities.Baking.BakeDependencies.NonStructuralChangedGameObjectPropertiesJob
-    - (IJobParallelFor)
-  - Unity.Entities.Baking.BakeDependencies.PrepareAssetDataJob - (IJob)
-  - Unity.Entities.Baking.BakeDependencies.PrepareObjectExistJob - (IJob)
-  - Unity.Entities.Baking.BakeDependencies.ResetBakerDependencies(int, Unity.Entities.Baking.BakeDependencies&,
-    Unity.Entities.Baking.BakeDependencies.RecordedDependencies&)
-  - Unity.Entities.Baking.BakeDependencies.UpdateDependencies(Unity.Entities.Baking.BakeDependencies&,
-    int, Unity.Entities.Baking.BakeDependencies.RecordedDependencies&, Unity.Entities.Baking.BakeDependencies.RecordedDependencies&)
-  - Unity.Entities.Baking.UnsafeDependencyStream`1.ComposeHashSetJob[System.Int32]
-    - (IJobParallelFor)
-  - Unity.Entities.Baking.UnsafeDependencyStream`1.ComposeHashSetJob[Unity.Entities.Entity]
-    - (IJobParallelFor)
-  - Unity.Entities.Baking.UnsafeDependencyStream`1.ResizeHashSetJob[System.Int32]
-    - (IJob)
-  - Unity.Entities.Baking.UnsafeDependencyStream`1.ResizeHashSetJob[Unity.Entities.Entity]
-    - (IJob)
-  - Unity.Entities.BlobAssetOwner.__codegen__Release(System.IntPtr)
-  - Unity.Entities.BlobAssetOwner.__codegen__Retain(System.IntPtr)
-  - Unity.Entities.ChunkBaseEntityIndexJob - (IJob)
-  - Unity.Entities.ChunkDataUtility.SwapComponents(Unity.Entities.Chunk*, int, Unity.Entities.Chunk*,
-    int, int, uint, uint)
-  - Unity.Entities.ChunkIterationUtility.CalculateBaseEntityIndexArray(Unity.Entities.UnsafeCachedChunkList&,
-    Unity.Entities.UnsafeMatchingArchetypePtrList&, Unity.Entities.EntityQueryFilter&,
-    int, Unity.Collections.NativeArray`1[System.Int32]&)
-  - Unity.Entities.ChunkIterationUtility.CalculateChunkCount(Unity.Entities.UnsafeCachedChunkList&,
-    Unity.Entities.UnsafeMatchingArchetypePtrList&, Unity.Entities.EntityQueryFilter&,
-    int)
-  - Unity.Entities.ChunkIterationUtility.CalculateEntityCount(Unity.Entities.UnsafeCachedChunkList&,
-    Unity.Entities.UnsafeMatchingArchetypePtrList&, Unity.Entities.EntityQueryFilter&,
-    int)
-  - Unity.Entities.ChunkIterationUtility.CalculateFilteredChunkIndexArray(Unity.Entities.UnsafeCachedChunkList&,
-    Unity.Entities.UnsafeMatchingArchetypePtrList&, Unity.Entities.EntityQueryFilter&,
-    int, Unity.Collections.NativeArray`1[System.Int32]&)
-  - Unity.Entities.ChunkIterationUtility.CopyComponentArrayToChunksWithFilter(System.Byte*,
-    Unity.Entities.TypeIndex, Unity.Entities.UnsafeMatchingArchetypePtrList&, Unity.Entities.EntityQueryFilter&,
-    Unity.Entities.UnsafeCachedChunkList&, uint)
-  - Unity.Entities.ChunkIterationUtility.CopyComponentArrayToChunksWithoutFilter(System.Byte*,
-    Unity.Entities.TypeIndex, Unity.Entities.UnsafeCachedChunkList&, Unity.Entities.UnsafeMatchingArchetypePtrList&,
-    uint)
-  - Unity.Entities.ChunkIterationUtility.GatherComponentDataWithFilter(System.Byte*,
-    Unity.Entities.TypeIndex, Unity.Entities.UnsafeCachedChunkList&, Unity.Entities.UnsafeMatchingArchetypePtrList&,
-    Unity.Entities.EntityQueryFilter&)
-  - Unity.Entities.ChunkIterationUtility.GatherComponentDataWithoutFilter(System.Byte*,
-    Unity.Entities.TypeIndex, Unity.Entities.UnsafeCachedChunkList&, Unity.Entities.UnsafeMatchingArchetypePtrList&)
-  - Unity.Entities.ChunkIterationUtility.GatherEntitiesWithFilter(Unity.Entities.Entity*,
-    Unity.Entities.EntityQueryFilter&, Unity.Entities.UnsafeCachedChunkList&, Unity.Entities.UnsafeMatchingArchetypePtrList&)
-  - Unity.Entities.ChunkIterationUtility.GatherEntitiesWithoutFilter(Unity.Entities.Entity*,
-    Unity.Entities.UnsafeCachedChunkList&, Unity.Entities.UnsafeMatchingArchetypePtrList&)
-  - Unity.Entities.ChunkIterationUtility.GetEnabledMask(Unity.Entities.Chunk*, Unity.Entities.MatchingArchetype*,
-    Unity.Burst.Intrinsics.v128&)
-  - Unity.Entities.ChunkIterationUtility.IsEmpty(Unity.Entities.EntityQueryImpl&,
-    Unity.Entities.EntityQueryFilter&)
-  - Unity.Entities.ChunkIterationUtility.SetEnabledBitsOnAllChunks(Unity.Entities.EntityQueryImpl&,
-    Unity.Entities.TypeIndex, bool)
-  - Unity.Entities.ChunkIterationUtility.ToArchetypeChunkList(Unity.Entities.UnsafeCachedChunkList&,
-    Unity.Entities.UnsafeMatchingArchetypePtrList&, Unity.Entities.EntityQueryFilter&,
-    int, Unity.Collections.NativeList`1[Unity.Entities.ArchetypeChunk]&)
-  - Unity.Entities.CompanionGameObjectUpdateSystem.CompanionGameObjectUpdateSystem_14BD1F73_LambdaJob_0_Job
-    - (IJobChunk)
-  - Unity.Entities.CompanionGameObjectUpdateSystem.CompanionGameObjectUpdateSystem_14BD1F73_LambdaJob_1_Job
-    - (IJobChunk)
-  - Unity.Entities.CompanionGameObjectUpdateTransformSystem.CopyTransformJob - (IJobParallelForTransform)
-  - Unity.Entities.CompanionGameObjectUpdateTransformSystem.RemoveDestroyedEntities(Unity.Entities.CompanionGameObjectUpdateTransformSystem.RemoveDestroyedEntitiesArgs&)
-  - Unity.Entities.ComponentSystemSorter.FindConstraints(int, Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.ComponentSystemSorter.SystemElement]*,
-    Unity.Collections.NativeHashMap`2[Unity.Entities.SystemTypeIndex,System.Int32]*,
-    Unity.Entities.TypeManager.SystemAttributeKind, Unity.Entities.TypeManager.SystemAttributeKind,
-    Unity.Collections.NativeHashSet`1[Unity.Entities.SystemTypeIndex]*)
-  - Unity.Entities.ComponentSystemSorter.SortInternal(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.ComponentSystemSorter.SystemElement]*,
-    Unity.Collections.NativeHashMap`2[Unity.Entities.SystemTypeIndex,System.Int32]*,
-    Unity.Collections.NativeList`1[Unity.Entities.SystemTypeIndex]*)
-  - Unity.Entities.Content.RuntimeContentManager.GetObjectHandle(Unity.Entities.Serialization.UntypedWeakReferenceId&,
-    System.Runtime.InteropServices.GCHandle&)
-  - Unity.Entities.Content.RuntimeContentManager.GetObjectLoadingStatus(Unity.Entities.Serialization.UntypedWeakReferenceId&)
-  - Unity.Entities.Content.RuntimeContentManager.LoadObjectAsync(Unity.Entities.Serialization.UntypedWeakReferenceId&)
-  - Unity.Entities.Content.RuntimeContentManager.LoadObjectsAsync(Unity.Entities.Serialization.UntypedWeakReferenceId*,
-    int)
-  - Unity.Entities.Content.RuntimeContentManager.ProcessQueuedCommands()
-  - Unity.Entities.Content.RuntimeContentManager.ReleaseObjectAsync(Unity.Entities.Serialization.UntypedWeakReferenceId&)
-  - Unity.Entities.Content.RuntimeContentManager.ReleaseObjects(Unity.Entities.Serialization.UntypedWeakReferenceId*,
-    int)
-  - Unity.Entities.Conversion.SceneHierarchyExtensions.CollectHierarchyInstanceIdsAndIndicesJob
-    - (IJob)
-  - Unity.Entities.Conversion.SceneHierarchyExtensions.CollectHierarchyInstanceIdsJob
-    - (IJob)
-  - Unity.Entities.CopyComponentArrayToChunksJob - (IJobChunk)
-  - Unity.Entities.CopyComponentListToChunksJob - (IJobChunk)
-  - Unity.Entities.CopyIndexedInt - (IJobParallelFor)
-  - Unity.Entities.DependencyTracker.CollectDependencies - (IJob)
-  - Unity.Entities.ECBInterop._mono_to_burst_ProcessChainChunk(System.IntPtr, int,
-    System.IntPtr, int, int)
-  - Unity.Entities.Editor.ArchetypesWindow.ArchetypesMemoryDataRecorder.Recorder.GetArchetypesDataJob
-    - (IJobParallelFor)
-  - Unity.Entities.Editor.ComponentDataDiffer.AllocateChunkShadowsJob - (IJobParallelForDefer)
-  - Unity.Entities.Editor.ComponentDataDiffer.BuildChangeSetJob - (IJob)
-  - Unity.Entities.Editor.ComponentDataDiffer.DisposeGatheredChangesJob - (IJobParallelForDefer)
-  - Unity.Entities.Editor.ComponentDataDiffer.GatherEntityAndComponentChangesJob
-    - (IJobParallelForDefer)
-  - Unity.Entities.Editor.ComponentDataDiffer.GatherExistingChunks - (IJobParallelForDefer)
-  - Unity.Entities.Editor.ComponentDataDiffer.GatherRemovedChunks - (IJobParallelFor)
-  - Unity.Entities.Editor.ComponentDataDiffer.GatherRemovedEntitiesAndComponentsJob
-    - (IJob)
-  - Unity.Entities.Editor.ComponentDataDiffer.RemoveChunkShadowsJob - (IJob)
-  - Unity.Entities.Editor.ComponentDataDiffer.ResizeAndClearChunkListsJob - (IJob)
-  - Unity.Entities.Editor.ComponentDataDiffer.UpdateShadowChunksJob - (IJobParallelForDefer)
-  - Unity.Entities.Editor.EntityDiffer.AllocateChunkShadowsJob - (IJobParallelForDefer)
-  - Unity.Entities.Editor.EntityDiffer.BuildChangeSetJob - (IJob)
-  - Unity.Entities.Editor.EntityDiffer.DisposeGatheredChangesJob - (IJobParallelForDefer)
-  - Unity.Entities.Editor.EntityDiffer.GatherEntityChangesJob - (IJobParallelForDefer)
-  - Unity.Entities.Editor.EntityDiffer.GatherExistingChunksJob - (IJobParallelForDefer)
-  - Unity.Entities.Editor.EntityDiffer.GatherRemovedChunks - (IJobParallelForDefer)
-  - Unity.Entities.Editor.EntityDiffer.GatherRemovedEntitiesJob - (IJob)
-  - Unity.Entities.Editor.EntityDiffer.RemoveChunkShadowsJob - (IJob)
-  - Unity.Entities.Editor.EntityDiffer.ResizeAndClearChunkListsJob - (IJob)
-  - Unity.Entities.Editor.EntityDiffer.UpdateShadowChunksJob - (IJobParallelForDefer)
-  - Unity.Entities.Editor.HierarchyEntityChangeTracker.DistinctJob - (IJob)
-  - Unity.Entities.Editor.HierarchyGameObjectChangeTracker.MergeEventsJob - (IJob)
-  - Unity.Entities.Editor.HierarchyNodeStore.ExportImmutableEntitiesNodesBatchJob
-    - (IJob)
-  - Unity.Entities.Editor.HierarchyNodeStore.ExportImmutableHierarchyNodesBatchJob
-    - (IJob)
-  - Unity.Entities.Editor.HierarchyNodeStore.IntegrateEntityChangesJob - (IJob)
-  - Unity.Entities.Editor.HierarchyNodes.BuildExpandedNodes - (IJob)
-  - Unity.Entities.Editor.HierarchyNodes.BuildFilteredNodes - (IJob)
-  - Unity.Entities.Editor.HierarchySearch.BuildEntityNameStoragePatternCacheLowerInvariant`1[Unity.Collections.FixedString64Bytes]
-    - (IJob)
-  - Unity.Entities.Editor.HierarchySearch.FilterByEntityQuery(Unity.Collections.NativeBitArray&,
-    Unity.Entities.Editor.HierarchyNodeStore.Immutable&, Unity.Entities.EntityQueryMask&)
-  - Unity.Entities.Editor.HierarchySearch.FilterByIndex - (IJob)
-  - Unity.Entities.Editor.HierarchySearch.FilterByKind - (IJob)
-  - Unity.Entities.Editor.HierarchySearch.FilterByNameLowerInvariant`1[Unity.Collections.FixedString64Bytes]
-    - (IJob)
-  - Unity.Entities.Editor.HierarchySearch.FilterByPrefabStage - (IJob)
-  - Unity.Entities.Editor.HierarchySearch.FilterIncludeSubScene - (IJob)
-  - Unity.Entities.Editor.SIMDSearch.FindMatchesJob`2[Unity.Collections.FixedString128Bytes,Unity.Collections.FixedString128Bytes]
-    - (IJobParallelFor)
-  - Unity.Entities.Editor.SIMDSearch.FindMatchesJob`2[Unity.Collections.FixedString64Bytes,Unity.Collections.FixedString64Bytes]
-    - (IJobParallelFor)
-  - Unity.Entities.Editor.SharedComponentDataDiffer.AllocateNewShadowChunksJob -
-    (IJobParallelForDefer)
-  - Unity.Entities.Editor.SharedComponentDataDiffer.ConcatResultsJob - (IJob)
-  - Unity.Entities.Editor.SharedComponentDataDiffer.CopyStateToShadowChunksJob -
-    (IJob)
-  - Unity.Entities.Editor.SharedComponentDataDiffer.DisposeResultsBuffers - (IJobParallelFor)
-  - Unity.Entities.Editor.SharedComponentDataDiffer.GatherChangesJob - (IJobParallelForDefer)
-  - Unity.Entities.Editor.SharedComponentDataDiffer.PrepareResultsJob - (IJob)
-  - Unity.Entities.Editor.SharedComponentDataDiffer.ResizeAndClearChunkListsJob -
-    (IJob)
-  - Unity.Entities.Editor.SystemsWindowTestSystem.SystemsWindowTestSystem_1515F730_LambdaJob_0_Job
-    - (IJobChunk)
-  - Unity.Entities.Editor.UnmanagedSharedComponentDataDiffer.AllocateChunkShadowsJob
-    - (IJobParallelForDefer)
-  - Unity.Entities.Editor.UnmanagedSharedComponentDataDiffer.BuildChangeSetJob -
-    (IJob)
-  - Unity.Entities.Editor.UnmanagedSharedComponentDataDiffer.CopyStateToShadowSharedComponentDataJob
-    - (IJob)
-  - Unity.Entities.Editor.UnmanagedSharedComponentDataDiffer.DisposeGatheredChangesJob
-    - (IJobParallelForDefer)
-  - Unity.Entities.Editor.UnmanagedSharedComponentDataDiffer.GatherEntityChangesJob
-    - (IJobParallelForDefer)
-  - Unity.Entities.Editor.UnmanagedSharedComponentDataDiffer.GatherExistingChunks
-    - (IJobParallelForDefer)
-  - Unity.Entities.Editor.UnmanagedSharedComponentDataDiffer.GatherRemovedChunks
-    - (IJobParallelForDefer)
-  - Unity.Entities.Editor.UnmanagedSharedComponentDataDiffer.GatherRemovedEntitiesJob
-    - (IJob)
-  - Unity.Entities.Editor.UnmanagedSharedComponentDataDiffer.RemoveChunkShadowsJob
-    - (IJob)
-  - Unity.Entities.Editor.UnmanagedSharedComponentDataDiffer.ResizeAndClearChunkListsJob
-    - (IJob)
-  - Unity.Entities.Editor.UnmanagedSharedComponentDataDiffer.UpdateShadowChunksJob
-    - (IJobParallelForDefer)
-  - Unity.Entities.EnabledBitUtility.ShiftRightBurstForTests(Unity.Burst.Intrinsics.v128&,
-    Unity.Burst.Intrinsics.v128&, int)
-  - Unity.Entities.EntitiesJournaling.FrameCountSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Entities.EntitiesJournaling.RecordViewArrayUtility.ConvertGetRWsToSets(Unity.Entities.EntitiesJournaling.RecordViewArray&)
-  - Unity.Entities.EntityChangeSetFormatter.BuildEntityGuidToEntityHashMap - (IJobChunk)
-  - Unity.Entities.EntityChangeSetFormatter.GatherNamesChangedEntities - (IJobParallelFor)
-  - Unity.Entities.EntityChangeSetFormatter.GatherNamesForComponentChanges - (IJobParallelFor)
-  - Unity.Entities.EntityCommandBuffer.DisposeInternal(Unity.Entities.EntityCommandBuffer&)
-  - Unity.Entities.EntityComponentStore.EntityBatchFromEntityChunkDataShared(Unity.Entities.EntityInChunk*&,
-    int, Unity.Entities.EntityBatchInChunk*, System.Int32*, int, System.Int32*)
-  - Unity.Entities.EntityComponentStore.GatherEntityInChunkForEntities(Unity.Entities.Entity*,
-    Unity.Entities.EntityInChunk*, Unity.Entities.EntityInChunk*, int)
-  - Unity.Entities.EntityComponentStore.GetOrCreateDestroyedEntitiesJob - (IJob)
-  - Unity.Entities.EntityComponentStore.SortEntityInChunk(Unity.Entities.EntityInChunk*,
-    int)
-  - Unity.Entities.EntityDataAccess.BuildSharedComponentMapForMoving(Unity.Collections.NativeHashMap`2[System.Int32,System.Int32]&,
-    Unity.Collections.NativeArray`1[Unity.Entities.ArchetypeChunk]&)
-  - Unity.Entities.EntityDataAccess.SetSharedComponentDataIndexWithBurst(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.Entity&, Unity.Entities.ComponentType&, int)
-  - Unity.Entities.EntityDiffer.BuildChunkSequenceNumberMap - (IJobParallelForDefer)
-  - Unity.Entities.EntityDiffer.BuildEntityGuidToEntity - (IJob)
-  - Unity.Entities.EntityDiffer.ClearMissingReferencesJob - (IJobParallelForDefer)
-  - Unity.Entities.EntityDiffer.CollectSharedComponentIndices - (IJob)
-  - Unity.Entities.EntityDiffer.CopyChunkBuffers - (IJobFor)
-  - Unity.Entities.EntityDiffer.CreateNewChunks - (IJob)
-  - Unity.Entities.EntityDiffer.DestroyChunksJob - (IJob)
-  - Unity.Entities.EntityDiffer.GatherArchetypeChunkChanges - (IJob)
-  - Unity.Entities.EntityDiffer.GatherBlobAssetChanges - (IJob)
-  - Unity.Entities.EntityDiffer.GatherComponentChangesBuildPacked - (IJob)
-  - Unity.Entities.EntityDiffer.GatherComponentChangesJob - (IJob)
-  - Unity.Entities.EntityDiffer.GatherCreatedAndDestroyedBlobAssets - (IJob)
-  - Unity.Entities.EntityDiffer.GatherEntityChanges - (IJob)
-  - Unity.Entities.EntityDiffer.GatherEntityInChunkWithGuid - (IJobParallelFor)
-  - Unity.Entities.EntityDiffer.GetEntityNamesJob - (IJob)
-  - Unity.Entities.EntityDiffer.PatchAndAddClonedChunks - (IJobParallelFor)
-  - Unity.Entities.EntityDiffer.SortBlobAssetPtr - (IJob)
-  - Unity.Entities.EntityDiffer.SortEntityInChunk - (IJob)
-  - Unity.Entities.EntityManager.ChunkPatchEntities - (IJob)
-  - Unity.Entities.EntityManager.EntityManagerDebug.BuildInstanceIDToEntityIndex
-    - (IJobChunk)
-  - Unity.Entities.EntityManager.FreeAllChunksJob - (IJob)
-  - Unity.Entities.EntityManager.GatherAllManagedComponentIndicesJob - (IJob)
-  - Unity.Entities.EntityManager.GatherManagedComponentIndicesInChunkJob - (IJob)
-  - Unity.Entities.EntityManager.MoveAllChunksJob - (IJob)
-  - Unity.Entities.EntityManager.MoveChunksJob - (IJob)
-  - Unity.Entities.EntityManager.MoveFilteredChunksBetweenArchetypeJob - (IJob)
-  - Unity.Entities.EntityManager.RemapAllArchetypesJob - (IJobParallelFor)
-  - Unity.Entities.EntityManager.RemapAllChunksJob - (IJobParallelFor)
-  - Unity.Entities.EntityManager.RemapChunksFilteredJob - (IJobParallelFor)
-  - Unity.Entities.EntityManager.RemapChunksForFilteredMove(Unity.Collections.NativeArray`1[Unity.Entities.ArchetypeChunk]&,
-    Unity.Collections.NativeArray`1[Unity.Entities.EntityManager.RemapChunk]&, Unity.Collections.NativeArray`1[Unity.Entities.EntityRemapUtility.EntityRemapInfo]&,
-    Unity.Collections.NativeList`1[System.IntPtr]&, System.Int32&, Unity.Entities.EntityComponentStore*,
-    Unity.Entities.EntityComponentStore*)
-  - Unity.Entities.EntityPatcher.ApplyAddComponentsJob - (IJobFor)
-  - Unity.Entities.EntityPatcher.ApplyCreateEntitiesWithArchetypes(Unity.Entities.EntityManager&,
-    Unity.Collections.NativeParallelMultiHashMap`2[System.Int32,Unity.Entities.Entity]&,
-    Unity.Collections.NativeArray`1[Unity.Entities.FilteredArchetype]&)
-  - Unity.Entities.EntityPatcher.ApplyDestroyEntities(Unity.Entities.EntityManager&,
-    Unity.Collections.NativeArray`1[Unity.Entities.EntityGuid]&, Unity.Collections.NativeParallelMultiHashMap`2[System.Int32,Unity.Entities.Entity]&,
-    Unity.Collections.NativeParallelMultiHashMap`2[Unity.Entities.EntityGuid,Unity.Entities.Entity]&,
-    int)
-  - Unity.Entities.EntityPatcher.ApplyLinkedEntityGroupAdditions(Unity.Entities.EntityManager&,
-    Unity.Collections.NativeArray`1[Unity.Entities.LinkedEntityGroupChange]&, Unity.Collections.NativeArray`1[Unity.Entities.EntityGuid]&,
-    Unity.Collections.NativeParallelMultiHashMap`2[System.Int32,Unity.Entities.Entity]&,
-    Unity.Collections.NativeParallelMultiHashMap`2[Unity.Entities.EntityGuid,Unity.Entities.Entity]&,
-    Unity.Collections.NativeParallelHashMap`2[Unity.Entities.Entity,Unity.Entities.EntityGuid]&,
-    Unity.Collections.NativeParallelHashMap`2[Unity.Entities.EntityGuid,Unity.Entities.Entity]&,
-    Unity.Collections.NativeParallelHashMap`2[Unity.Entities.Entity,Unity.Entities.Entity]&)
-  - Unity.Entities.EntityPatcher.ApplyLinkedEntityGroupRemovals(Unity.Entities.EntityManager&,
-    Unity.Collections.NativeArray`1[Unity.Entities.LinkedEntityGroupChange]&, Unity.Collections.NativeArray`1[Unity.Entities.EntityGuid]&,
-    Unity.Collections.NativeParallelMultiHashMap`2[System.Int32,Unity.Entities.Entity]&,
-    Unity.Collections.NativeParallelMultiHashMap`2[Unity.Entities.EntityGuid,Unity.Entities.Entity]&,
-    Unity.Collections.NativeParallelHashMap`2[Unity.Entities.Entity,Unity.Entities.EntityGuid]&,
-    Unity.Collections.NativeParallelHashMap`2[Unity.Entities.Entity,Unity.Entities.Entity]&)
-  - Unity.Entities.EntityPatcher.ApplyNamesJob - (IJob)
-  - Unity.Entities.EntityPatcher.ApplyRemoveComponents(Unity.Entities.EntityManager&,
-    Unity.Collections.NativeArray`1[Unity.Entities.PackedComponent]&, Unity.Collections.NativeArray`1[Unity.Entities.EntityGuid]&,
-    Unity.Collections.NativeParallelMultiHashMap`2[System.Int32,Unity.Entities.Entity]&,
-    Unity.Collections.NativeArray`1[Unity.Entities.ComponentType]&)
-  - Unity.Entities.EntityPatcher.ApplySetComponentsJob - (IJob)
-  - Unity.Entities.EntityPatcher.ApplySetSharedComponentsJob - (IJobFor)
-  - Unity.Entities.EntityPatcher.ApplyUnmanagedEntityPatches(Unity.Entities.EntityManager&,
-    Unity.Collections.NativeArray`1[Unity.Entities.EntityReferenceChange]&, Unity.Collections.NativeArray`1[Unity.Entities.EntityGuid]&,
-    Unity.Collections.NativeParallelMultiHashMap`2[System.Int32,Unity.Entities.Entity]&,
-    Unity.Collections.NativeArray`1[Unity.Entities.ComponentType]&, Unity.Collections.NativeParallelMultiHashMap`2[Unity.Entities.EntityGuid,Unity.Entities.Entity]&,
-    Unity.Collections.NativeParallelHashMap`2[Unity.Entities.Entity,Unity.Entities.EntityGuid]&,
-    Unity.Collections.NativeParallelHashMap`2[Unity.Entities.EntityGuid,Unity.Entities.Entity]&,
-    Unity.Collections.NativeParallelHashMap`2[Unity.Entities.Entity,Unity.Entities.Entity]&,
-    Unity.Collections.NativeParallelMultiHashMap`2[System.Int32,Unity.Entities.EntityPatcher.EntityTargetPair]&)
-  - Unity.Entities.EntityPatcher.BuildComponentToEntityHashMap - (IJobChunk)
-  - Unity.Entities.EntityPatcher.BuildComponentToEntityMultiHashMap - (IJobChunk)
-  - Unity.Entities.EntityPatcher.BuildEntityToComponentHashMap - (IJobChunk)
-  - Unity.Entities.EntityPatcher.BuildLinkedEntityGroupHashMap - (IJobChunk)
-  - Unity.Entities.EntityPatcher.BuildPackedEntityLookupJob - (IJobParallelFor)
-  - Unity.Entities.EntityPatcher.BuildPackedTypeLookupJob - (IJobParallelFor)
-  - Unity.Entities.EntityPatcher.CalculateLinkedEntityGroupEntitiesLengthJob - (IJob)
-  - Unity.Entities.FastEquality.EqualsBlittable(System.Void*, System.Void*, Unity.Entities.FastEquality.TypeInfo&)
-  - Unity.Entities.FastEquality.GetHashCodeBlittable(System.Void*, Unity.Entities.FastEquality.TypeInfo&)
-  - Unity.Entities.FastEquality.Hash32(System.Byte*, int, int)
-  - Unity.Entities.FilteredChunkIndexJob - (IJob)
-  - Unity.Entities.GatherChunksJob - (IJob)
-  - Unity.Entities.GatherChunksToArrayJob - (IJobParallelFor)
-  - Unity.Entities.GatherChunksToArrayWithFilteringJob - (IJobParallelFor)
-  - Unity.Entities.GatherComponentDataJob - (IJobChunk)
-  - Unity.Entities.GatherComponentDataToArrayJob - (IJobChunk)
-  - Unity.Entities.GatherEntitiesJob - (IJobChunk)
-  - Unity.Entities.GatherEntitiesToArrayJob - (IJobChunk)
-  - Unity.Entities.Hybrid.Baking.AddLinkedEntityGroupBakingJob - (IJobChunk)
-  - Unity.Entities.Hybrid.Baking.BakingOnlyEntityAuthoringBakingSystem.BakingOnlyEntityAuthoringBakingSystem_26406ED9_LambdaJob_0_Job
-    - (IJobChunk)
-  - Unity.Entities.Internal.InternalCompilerInterface.MergeWith(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.ComponentType]&,
-    Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.ComponentType]&)
-  - Unity.Entities.JoinChunksJob - (IJobParallelFor)
-  - Unity.Entities.MemoryProfiler.MemoryProfilerJob - (IJob)
-  - Unity.Entities.RetainBlobAssetSystem.RetainBlobAssetSystem_188E85F4_LambdaJob_3_Job
-    - (IJobChunk)
-  - Unity.Entities.RetainBlobAssetSystem.RetainBlobAssetSystem_188E85F4_LambdaJob_3_Job.RunWithoutJobSystem(Unity.Entities.EntityQuery&,
-    System.IntPtr)
-  - Unity.Entities.RetainBlobAssetSystem.RetainBlobAssetSystem_188E85F4_LambdaJob_4_Job
-    - (IJobChunk)
-  - Unity.Entities.RetainBlobAssetSystem.RetainBlobAssetSystem_188E85F4_LambdaJob_4_Job.RunWithoutJobSystem(Unity.Entities.EntityQuery&,
-    System.IntPtr)
-  - Unity.Entities.ScratchpadAllocator.Try(System.IntPtr, Unity.Collections.AllocatorManager.Block&)
-  - Unity.Entities.SegmentSortInt - (IJobParallelFor)
-  - Unity.Entities.SegmentSortMergeInt - (IJob)
-  - Unity.Entities.Serialization.SerializeUtilityInterop.AddExistingChunk(Unity.Entities.Chunk*,
-    System.Int32*, System.Byte*, System.Int32*)
-  - Unity.Entities.Serialization.SerializeUtilityInterop.AllocAndQueueReadChunkCommands(long,
-    int, Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.Serialization.SerializeUtility.MegaChunkInfo]*,
-    Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.IO.LowLevel.Unsafe.ReadCommand]*)
-  - Unity.Entities.Serialization.SerializeUtilityInterop.AllocateConsecutiveEntitiesForLoading(Unity.Entities.EntityComponentStore*,
-    int)
-  - Unity.Entities.Serialization.SerializeUtilityInterop.ImportChunks(Unity.Entities.Serialization.SerializeUtility.WorldDeserializationStatus*,
-    Unity.Entities.Serialization.BurstableMemoryBinaryReader&, Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.EntityArchetype]*,
-    System.Int32*, int, System.Int32*, Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.ArchetypeChunk]*,
-    System.Byte*, System.Int32*, Unity.Entities.EntityComponentStore*, Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.ArchetypeChunk]*)
-  - Unity.Entities.StructuralChange.AddComponentChunks(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.ArchetypeChunk*, int, Unity.Entities.TypeIndex)
-  - Unity.Entities.StructuralChange.AddComponentEntitiesBatch(Unity.Entities.EntityComponentStore*,
-    Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.EntityBatchInChunk]*,
-    Unity.Entities.TypeIndex)
-  - Unity.Entities.StructuralChange.AddComponentEntity(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.Entity*, Unity.Entities.TypeIndex)
-  - Unity.Entities.StructuralChange.AddComponentQuery(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.EntityQueryImpl*, Unity.Entities.TypeIndex)
-  - Unity.Entities.StructuralChange.AddComponentsEntitiesBatch(Unity.Entities.EntityComponentStore*,
-    Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.EntityBatchInChunk]*,
-    Unity.Entities.ComponentTypeSet&)
-  - Unity.Entities.StructuralChange.AddComponentsEntity(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.Entity*, Unity.Entities.ComponentTypeSet&)
-  - Unity.Entities.StructuralChange.AddComponentsQuery(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.EntityQueryImpl*, Unity.Entities.ComponentTypeSet&)
-  - Unity.Entities.StructuralChange.AddSharedComponentChunks(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.ArchetypeChunk*, int, Unity.Entities.TypeIndex, int)
-  - Unity.Entities.StructuralChange.AddSharedComponentDataIndexWithBurst(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.Entity*, int, Unity.Entities.ComponentType&, int)
-  - Unity.Entities.StructuralChange.AddSharedComponentQuery(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.EntityQueryImpl*, Unity.Entities.TypeIndex, int)
-  - Unity.Entities.StructuralChange.CreateEntity(Unity.Entities.EntityComponentStore*,
-    System.Void*, Unity.Entities.Entity*, int)
-  - Unity.Entities.StructuralChange.DestroyChunksQuery(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.EntityQueryImpl*, Unity.Entities.BufferTypeHandle`1[Unity.Entities.LinkedEntityGroup]&)
-  - Unity.Entities.StructuralChange.DestroyEntity(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.Entity*, int)
-  - Unity.Entities.StructuralChange.InstantiateEntities(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.Entity*, Unity.Entities.Entity*, int, bool)
-  - Unity.Entities.StructuralChange.InstantiateEntity(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.Entity*, Unity.Entities.Entity*, int)
-  - Unity.Entities.StructuralChange.MoveEntityArchetype(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.Entity*, System.Void*)
-  - Unity.Entities.StructuralChange.RemoveComponentChunks(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.ArchetypeChunk*, int, Unity.Entities.TypeIndex)
-  - Unity.Entities.StructuralChange.RemoveComponentEntitiesBatch(Unity.Entities.EntityComponentStore*,
-    Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.EntityBatchInChunk]*,
-    Unity.Entities.TypeIndex)
-  - Unity.Entities.StructuralChange.RemoveComponentEntity(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.Entity*, Unity.Entities.TypeIndex)
-  - Unity.Entities.StructuralChange.RemoveComponentQuery(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.EntityQueryImpl*, Unity.Entities.TypeIndex)
-  - Unity.Entities.StructuralChange.RemoveComponentsEntitiesBatch(Unity.Entities.EntityComponentStore*,
-    Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Entities.EntityBatchInChunk]*,
-    Unity.Entities.ComponentTypeSet&)
-  - Unity.Entities.StructuralChange.RemoveComponentsEntity(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.Entity*, Unity.Entities.ComponentTypeSet&)
-  - Unity.Entities.StructuralChange.RemoveComponentsQuery(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.EntityQueryImpl*, Unity.Entities.ComponentTypeSet&)
-  - Unity.Entities.StructuralChange.SetChunkComponent(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.ArchetypeChunk*, int, System.Void*, Unity.Entities.TypeIndex)
-  - Unity.Entities.StructuralChange.SetSharedComponentDataIndexWithBurst(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.Entity*, int, Unity.Entities.ComponentType&, int)
-  - Unity.Entities.StructuralChange.SetSharedComponentDataIndexWithBurst(Unity.Entities.EntityComponentStore*,
-    Unity.Entities.EntityQueryImpl*, Unity.Entities.ComponentType&, int)
-  - Unity.Entities.TransformAuthoringBaking.BakeAdditionalEntityTransformAuthoringJob
-    - (IJobChunk)
-  - Unity.Entities.TransformAuthoringBaking.BakeToTransformAuthoringComponentJob
-    - (IJobFor)
-  - Unity.Entities.TransformAuthoringBaking.BakeToTransformAuthoringListJob - (IJobParallelForTransform)
-  - Unity.Entities.TransformAuthoringBaking.ForceTransformsOnParentsJob - (IJob)
-  - Unity.Entities.UnsafeCachedChunkList.Rebuild(Unity.Entities.UnsafeCachedChunkList&,
-    Unity.Entities.EntityQueryData&)
-  - Unity.Entities.WorldUnmanagedImpl.UnmanagedUpdate(System.Void*)
-  - Unity.Mathematics.GeneratePoints.PointsInSphere - (IJob)
-  - Unity.Physics.Authoring.BaseShapeBakingSystem.BasicBlobsJobHandleJob - (IJobChunk)
-  - Unity.Physics.Authoring.BaseShapeBakingSystem.BasicHashesJobHandleJob - (IJobChunk)
-  - Unity.Physics.Authoring.BaseShapeBakingSystem.DeduplicateJobHandleJob - (IJobChunk)
-  - Unity.Physics.Authoring.BaseShapeBakingSystem.MeshHashesJobHandleJob - (IJobChunk)
-  - Unity.Physics.Authoring.BuildCompoundCollidersBakingSystem.AddColliderKeyEntityPairBufferJob
-    - (IJobChunk)
-  - Unity.Physics.Authoring.BuildCompoundCollidersBakingSystem.BlobCalculationJobHandleJob
-    - (IJobChunk)
-  - Unity.Physics.Authoring.BuildCompoundCollidersBakingSystem.BlobContextUpdateJobHandleJob
-    - (IJobChunk)
-  - Unity.Physics.Authoring.BuildCompoundCollidersBakingSystem.ChildrenGatheringJobHandleJob
-    - (IJobChunk)
-  - Unity.Physics.Authoring.BuildCompoundCollidersBakingSystem.DeferredResolutionJobHandleJob
-    - (IJobChunk)
-  - Unity.Physics.Authoring.DisplayBroadphaseJob - (IJob)
-  - Unity.Physics.Authoring.DisplayColliderAabbsJob - (IJobParallelFor)
-  - Unity.Physics.Authoring.DisplayColliderAabbsSystem_Default.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Authoring.DisplayColliderAabbsSystem_Editor.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Authoring.DisplayColliderEdgesJob - (IJobParallelFor)
-  - Unity.Physics.Authoring.DisplayColliderFacesJob - (IJobParallelFor)
-  - Unity.Physics.Authoring.DisplayCollisionEventsSystem.DisplayCollisionEventsJob
-    - (Unity.Physics.ICollisionEventsJobBase)
-  - Unity.Physics.Authoring.DisplayCollisionEventsSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Authoring.DisplayContactsSystem.DisplayContactsJob - (Unity.Physics.IContactsJobBase)
-  - Unity.Physics.Authoring.DisplayContactsSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Authoring.DisplayJointsJob - (IJobParallelFor)
-  - Unity.Physics.Authoring.DisplayJointsSystem_Default.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Authoring.DisplayJointsSystem_Editor.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Authoring.DisplayMassPropertiesSystem.DisplayMassPropertiesJob
-    - (IJobParallelFor)
-  - Unity.Physics.Authoring.DisplayMassPropertiesSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Authoring.DisplayTriggerEventsSystem.DisplayTriggerEventsJob -
-    (Unity.Physics.ITriggerEventsJobBase)
-  - Unity.Physics.Authoring.DisplayTriggerEventsSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Authoring.HashableShapeInputs.HashableShapeInputsFromMeshJob -
-    (IJob)
-  - Unity.Physics.Authoring.MeshBlobsJob - (IJobParallelFor)
-  - Unity.Physics.Authoring.StaticOptimizeBakingSystem.GetUniqueRoots(Unity.Collections.NativeArray`1[Unity.Physics.Authoring.BakeStaticRoot]&,
-    Unity.Collections.NativeHashMap`2[Unity.Entities.Entity,Unity.Physics.Authoring.BakeStaticRoot]&)
-  - Unity.Physics.Authoring.StaticOptimizeBakingSystem.__codegen__OnCreate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Authoring.StaticOptimizeBakingSystem.__codegen__OnDestroy(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Authoring.StaticOptimizeBakingSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.BoundingVolumeHierarchy.BuildBranchesJob - (IJobParallelForDefer)
-  - Unity.Physics.BoundingVolumeHierarchy.BuildFirstNLevelsJob - (IJob)
-  - Unity.Physics.BoundingVolumeHierarchy.FinalizeTreeJob - (IJob)
-  - Unity.Physics.Broadphase.AllocateDynamicVsStaticNodePairs - (IJob)
-  - Unity.Physics.Broadphase.BuildBroadphaseJob - (IJob)
-  - Unity.Physics.Broadphase.DynamicVsDynamicBuildBranchNodePairsJob - (IJob)
-  - Unity.Physics.Broadphase.DynamicVsDynamicFindOverlappingPairsJob - (IJobParallelForDefer)
-  - Unity.Physics.Broadphase.FindOverlapsJob - (IJob)
-  - Unity.Physics.Broadphase.PrepareDynamicBodyDataJob - (IJobParallelFor)
-  - Unity.Physics.Broadphase.PrepareNumStaticBodiesJob - (IJob)
-  - Unity.Physics.Broadphase.PrepareStaticBodyDataJob - (IJobParallelForDefer)
-  - Unity.Physics.Broadphase.StaticVsDynamicBuildBranchNodePairsJob - (IJob)
-  - Unity.Physics.Broadphase.StaticVsDynamicFindOverlappingPairsJob - (IJobParallelForDefer)
-  - Unity.Physics.CollisionWorld.UpdateDynamicLayerJob - (IJob)
-  - Unity.Physics.CollisionWorld.UpdateRigidBodyTransformsJob - (IJobParallelFor)
-  - Unity.Physics.DispatchPairSequencer.CreateDispatchPairPhasesJob - (IJob)
-  - Unity.Physics.DispatchPairSequencer.CreateDispatchPairsJobST - (IJob)
-  - Unity.Physics.DispatchPairSequencer.CreateUnsortedDispatchPairsJob - (IJob)
-  - Unity.Physics.DispatchPairSequencer.RadixSortPerBodyAJob - (IJob)
-  - Unity.Physics.DispatchPairSequencer.SolverSchedulerInfo.DisposeJob - (IJob)
-  - Unity.Physics.DispatchPairSequencer.SortSubArraysJob - (IJobParallelFor)
-  - Unity.Physics.GraphicsIntegration.BufferInterpolatedRigidBodiesMotion.UpdateInterpolationBuffersJob
-    - (IJobChunk)
-  - Unity.Physics.GraphicsIntegration.CopyPhysicsVelocityToSmoothing.CopyPhysicsVelocityJob
-    - (IJobChunk)
-  - Unity.Physics.GraphicsIntegration.SmoothRigidBodiesGraphicalMotion.SmoothMotionJob
-    - (IJobChunk)
-  - Unity.Physics.Integrator.IntegrateMotionsJob - (IJob)
-  - Unity.Physics.Integrator.ParallelIntegrateMotionsJob - (IJobParallelFor)
-  - Unity.Physics.NarrowPhase.CreateContactsJob - (IJob)
-  - Unity.Physics.NarrowPhase.ParallelCreateContactsJob - (IJobParallelForDefer)
-  - Unity.Physics.Solver.ApplyGravityAndCopyInputVelocitiesJob - (IJob)
-  - Unity.Physics.Solver.BuildJacobiansJob - (IJob)
-  - Unity.Physics.Solver.ParallelApplyGravityAndCopyInputVelocitiesJob - (IJobParallelFor)
-  - Unity.Physics.Solver.ParallelBuildJacobiansJob - (IJobParallelForDefer)
-  - Unity.Physics.Solver.ParallelSolverJob - (IJobParallelFor)
-  - Unity.Physics.Solver.SolverJob - (IJob)
-  - Unity.Physics.Solver.StabilizeVelocitiesJob - (IJobParallelFor)
-  - Unity.Physics.Systems.AnalyticsJobs.PhysicsBodiesAnalyticsJob - (IJob)
-  - Unity.Physics.Systems.AnalyticsJobs.PhysicsJointsAnalyticsJob - (IJob)
-  - Unity.Physics.Systems.BroadphaseSystem.__codegen__OnCreate(System.IntPtr, System.IntPtr)
-  - Unity.Physics.Systems.BroadphaseSystem.__codegen__OnDestroy(System.IntPtr, System.IntPtr)
-  - Unity.Physics.Systems.BroadphaseSystem.__codegen__OnUpdate(System.IntPtr, System.IntPtr)
-  - Unity.Physics.Systems.BuildPhysicsWorld.Jobs.RecordColliderIntegrity - (IJobChunk)
-  - Unity.Physics.Systems.BuildPhysicsWorld.Jobs.RecordDynamicBodyIntegrity - (IJobChunk)
-  - Unity.Physics.Systems.BuildPhysicsWorld.__codegen__OnCreate(System.IntPtr, System.IntPtr)
-  - Unity.Physics.Systems.BuildPhysicsWorld.__codegen__OnDestroy(System.IntPtr, System.IntPtr)
-  - Unity.Physics.Systems.BuildPhysicsWorld.__codegen__OnUpdate(System.IntPtr, System.IntPtr)
-  - Unity.Physics.Systems.BuildPhysicsWorldDependencyResolver.__codegen__OnCreate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.BuildPhysicsWorldDependencyResolver.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.CreateJacobiansSystem.__codegen__OnCreate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.CreateJacobiansSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.DummySimulationSystem.__codegen__OnCreate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.DummySimulationSystem.__codegen__OnDestroy(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.DummySimulationSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.ExportPhysicsWorld.CheckColliderIntegrity - (IJobChunk)
-  - Unity.Physics.Systems.ExportPhysicsWorld.CheckDynamicBodyIntegrity - (IJobChunk)
-  - Unity.Physics.Systems.ExportPhysicsWorld.CheckTotalIntegrity - (IJob)
-  - Unity.Physics.Systems.ExportPhysicsWorld.__codegen__OnCreate(System.IntPtr, System.IntPtr)
-  - Unity.Physics.Systems.ExportPhysicsWorld.__codegen__OnUpdate(System.IntPtr, System.IntPtr)
-  - Unity.Physics.Systems.NarrowphaseSystem.__codegen__OnCreate(System.IntPtr, System.IntPtr)
-  - Unity.Physics.Systems.NarrowphaseSystem.__codegen__OnUpdate(System.IntPtr, System.IntPtr)
-  - Unity.Physics.Systems.PhysicsSimulationPickerSystem.__codegen__OnCreate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.PhysicsSimulationPickerSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.PhysicsWorldBuilder.Jobs.CheckStaticBodyChangesJob - (IJobChunk)
-  - Unity.Physics.Systems.PhysicsWorldBuilder.Jobs.CreateDefaultStaticRigidBody -
-    (IJob)
-  - Unity.Physics.Systems.PhysicsWorldBuilder.Jobs.CreateJoints - (IJobChunk)
-  - Unity.Physics.Systems.PhysicsWorldBuilder.Jobs.CreateMotions - (IJobChunk)
-  - Unity.Physics.Systems.PhysicsWorldBuilder.Jobs.CreateRigidBodies - (IJobChunk)
-  - Unity.Physics.Systems.PhysicsWorldExporter.ExportDynamicBodiesJob - (IJobChunk)
-  - Unity.Physics.Systems.SolveAndIntegrateSystem.__codegen__OnCreate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.SolveAndIntegrateSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.SyncCustomPhysicsProxySystem.SyncCustomPhysicsProxy - (IJobChunk)
-  - Unity.Physics.Systems.SyncCustomPhysicsProxySystem.__codegen__OnCreate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Physics.Systems.SyncCustomPhysicsProxySystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Rendering.AllocateDrawCommandsJob - (IJob)
-  - Unity.Rendering.AllocateInstancesJob - (IJob)
-  - Unity.Rendering.AllocateWorkItemsJob - (IJob)
-  - Unity.Rendering.BoundsCheckMaterialMeshIndexJob - (IJobChunk)
-  - Unity.Rendering.ChunkDrawCommandOutput.ReleaseChunkDrawCommandsJob - (IJobParallelFor)
-  - Unity.Rendering.ClassifyNewChunksJob - (IJobChunk)
-  - Unity.Rendering.CollectWorkItemsJob - (IJobParallelForDefer)
-  - Unity.Rendering.CullingSplits.CreateJob - (IJob)
-  - Unity.Rendering.DebugValidateSortJob - (IJob)
-  - Unity.Rendering.DrawBinCollector.AllocateBinsJob - (IJob)
-  - Unity.Rendering.DrawBinCollector.CollectBinsJob - (IJobParallelFor)
-  - Unity.Rendering.DrawBinSort.AllocateForSortJob - (IJob)
-  - Unity.Rendering.DrawBinSort.MergeSlicesJob - (IJob)
-  - Unity.Rendering.DrawBinSort.SortSlicesJob - (IJobParallelFor)
-  - Unity.Rendering.EmitDrawCommandsJob - (IJobParallelForDefer)
-  - Unity.Rendering.EntitiesGraphicsSystem.CreateBatchCreateInfo(Unity.Rendering.BatchCreateInfoFactory&,
-    Unity.Collections.NativeArray`1[Unity.Entities.ArchetypeChunk]&, Unity.Collections.NativeArray`1[Unity.Rendering.BatchCreateInfo]&,
-    Unity.Rendering.MaterialPropertyType&)
-  - Unity.Rendering.EntitiesGraphicsSystem.SetBatchChunkData(Unity.Rendering.EntitiesGraphicsSystem.SetBatchChunkDataArgs&,
-    Unity.Collections.LowLevel.Unsafe.UnsafeList`1[Unity.Rendering.ArchetypePropertyOverride]&)
-  - Unity.Rendering.ExecuteGpuUploads - (IJobParallelFor)
-  - Unity.Rendering.ExpandVisibleInstancesJob - (IJobParallelForDefer)
-  - Unity.Rendering.FlushWorkItemsJob - (IJobParallelFor)
-  - Unity.Rendering.FrustumCullingJob - (IJobChunk)
-  - Unity.Rendering.GenerateDrawCommandsJob - (IJobParallelForDefer)
-  - Unity.Rendering.GenerateDrawRangesJob - (IJob)
-  - Unity.Rendering.InitializeUnreferencedIndicesScatterJob - (IJobParallelFor)
-  - Unity.Rendering.LODRequirementsUpdateSystem.UpdateLODGroupWorldReferencePointsJob
-    - (IJobChunk)
-  - Unity.Rendering.LODRequirementsUpdateSystem.UpdateLODRangesJob - (IJobChunk)
-  - Unity.Rendering.LODRequirementsUpdateSystem.UpdateLODWorldReferencePointsJob
-    - (IJobChunk)
-  - Unity.Rendering.LightProbeUpdateSystem.UpdateSHValuesJob - (IJobChunk)
-  - Unity.Rendering.MatrixPreviousSystem.UpdateMatrixPrevious - (IJobChunk)
-  - Unity.Rendering.PushBlendWeightSystem.ConstructHashMapJob - (IJobChunk)
-  - Unity.Rendering.PushBlendWeightSystem.CopyBlendShapeWeightsToGPUJob - (IJobChunk)
-  - Unity.Rendering.PushMeshDataSystem.ConstructDeformationBatches_Job - (IJob)
-  - Unity.Rendering.PushMeshDataSystem.CountActiveMeshes_Job - (IJob)
-  - Unity.Rendering.PushMeshDataSystem.LayoutDeformedMeshJob - (IJobChunk)
-  - Unity.Rendering.PushMeshDataSystem.UpdateSharedMeshRefCounts_Job - (IJob)
-  - Unity.Rendering.PushMeshDataSystem.UpdateSharedMeshRefCounts_Job.RunWithoutJobSystem(System.IntPtr)
-  - Unity.Rendering.PushSkinMatrixSystem.ConstructHashMapJob - (IJobChunk)
-  - Unity.Rendering.PushSkinMatrixSystem.CopySkinMatricesToGPUJob - (IJobChunk)
-  - Unity.Rendering.RenderBoundsUpdateSystem.BoundsJob - (IJobChunk)
-  - Unity.Rendering.SelectLodEnabled - (IJobChunk)
-  - Unity.Rendering.UpdateDrawCommandFlagsJob - (IJobChunk)
-  - Unity.Rendering.UpdateNewEntitiesGraphicsChunksJob - (IJobParallelFor)
-  - Unity.Rendering.UpdateOldEntitiesGraphicsChunksJob - (IJobChunk)
-  - Unity.Rendering.UpdateSceneBoundingVolumeFromRendererBounds.CollectSceneBoundsJob
-    - (IJob)
-  - Unity.Rendering.UploadBlitJob - (IJobParallelFor)
-  - Unity.Rendering.ZeroThreadLocalAABBJob - (IJobParallelFor)
-  - Unity.Scenes.AsyncLoadSceneOperation.AsyncLoadSceneJob - (IJob)
-  - Unity.Scenes.AsyncLoadSceneOperation.FreeJob - (IJob)
-  - Unity.Scenes.LiveConversionPatcher.RemoveLiveConversionSceneState - (IJobChunk)
-  - Unity.Scenes.SceneHeaderUtility.DeserializeHeaderJob - (IJob)
-  - Unity.Scenes.SceneSectionStreamingSystem.ExtractEntityRemapRefs(Unity.Scenes.SceneSectionStreamingSystem.EntityRemapArgs&)
-  - Unity.Scenes.SceneSectionStreamingSystem.SceneSectionStreamingSystem_34D9617_LambdaJob_0_Job
-    - (IJobChunk)
-  - Unity.Scenes.SceneSectionStreamingSystem.SceneSectionStreamingSystem_34D9617_LambdaJob_0_Job.RunWithoutJobSystem(Unity.Entities.EntityQuery&,
-    System.IntPtr)
-  - Unity.Scenes.SceneSystem.__codegen__OnUpdate(System.IntPtr, System.IntPtr)
-  - Unity.Scenes.WeakAssetReferenceLoadingSystem.__codegen__OnCreate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Scenes.WeakAssetReferenceLoadingSystem.__codegen__OnDestroy(System.IntPtr,
-    System.IntPtr)
-  - Unity.Scenes.WeakAssetReferenceLoadingSystem.__codegen__OnUpdate(System.IntPtr,
-    System.IntPtr)
-  - Unity.Serialization.Json.JsonSerialization.ReadJob - (IJob)
-  - Unity.Transforms.LocalToWorldSystem.ComputeChildLocalToWorldJob - (IJobChunk)
-  - Unity.Transforms.LocalToWorldSystem.ComputeRootLocalToWorldJob - (IJobChunk)
-  - Unity.Transforms.LocalToWorldSystem.__codegen__OnCreate(System.IntPtr, System.IntPtr)
-  - Unity.Transforms.LocalToWorldSystem.__codegen__OnUpdate(System.IntPtr, System.IntPtr)
-  - Unity.Transforms.ParentSystem.FindMissingChild - (IJob)
-  - Unity.Transforms.ParentSystem.FixupChangedChildren - (IJob)
-  - Unity.Transforms.ParentSystem.GatherChangedParents - (IJobChunk)
-  - Unity.Transforms.ParentSystem.GatherChildEntities - (IJob)
-  - Unity.Transforms.ParentSystem.__codegen__OnCreate(System.IntPtr, System.IntPtr)
-  - Unity.Transforms.ParentSystem.__codegen__OnUpdate(System.IntPtr, System.IntPtr)
-  - Unity.Transforms.TransformHelpers.ComputeWorldTransformMatrix(Unity.Entities.Entity&,
-    Unity.Mathematics.float4x4&, Unity.Entities.ComponentLookup`1[Unity.Transforms.LocalTransform]&,
-    Unity.Entities.ComponentLookup`1[Unity.Transforms.Parent]&, Unity.Entities.ComponentLookup`1[Unity.Transforms.PostTransformMatrix]&)
-  - UnityEditor.PhysicsDebugWindow.ReadContactsJob - (IJob)
-  - UnityEditor.U2D.Animation.BiharmonicsJob - (IJob)
-  - UnityEditor.U2D.Animation.BoundedBiharmonicWeightsGenerator.CalculateInternal_(Unity.Collections.NativeArray`1[Unity.Mathematics.float2]&,
-    Unity.Collections.NativeArray`1[System.Int32]&, Unity.Collections.NativeArray`1[Unity.Mathematics.int2]&,
-    Unity.Collections.NativeArray`1[Unity.Mathematics.float2]&, Unity.Collections.NativeArray`1[Unity.Mathematics.int2]&,
-    Unity.Collections.NativeArray`1[System.Int32]&, int, int, int, Unity.Collections.NativeArray`1[UnityEngine.BoneWeight]&)
-  - UnityEditor.U2D.Animation.BoundedBiharmonicWeightsGenerator.SampleBones_(Unity.Collections.NativeArray`1[Unity.Mathematics.float2]&,
-    Unity.Collections.NativeArray`1[Unity.Mathematics.int2]&, int, Unity.Collections.NativeArray`1[Unity.Mathematics.float2]&)
-  - UnityEditor.U2D.Animation.BoundedBiharmonicWeightsGenerator.TriangulateInternal_(Unity.Collections.NativeArray`1[System.Int32]&,
-    System.Int32&, Unity.Collections.NativeArray`1[Unity.Mathematics.float2]&, Unity.Collections.NativeArray`1[System.Int32]&,
-    System.Int32&)
-  - UnityEditor.U2D.Animation.BoundedBiharmonicWeightsGenerator.TriangulateSamplers_(Unity.Collections.NativeArray`1[Unity.Mathematics.float2]&,
-    Unity.Collections.NativeArray`1[Unity.Mathematics.float2]&, System.Int32&, Unity.Collections.NativeArray`1[System.Int32]&,
-    System.Int32&)
-  - UnityEditor.U2D.Animation.TessellateJob - (IJob)
-  - UnityEditor.U2D.Animation.TriangulateJob - (IJob)
-  - UnityEditor.U2D.Animation.TriangulationUtility.SubdivideBurst(Unity.Collections.Allocator,
-    Unity.Mathematics.float2*, int, Unity.Mathematics.int2*, int, Unity.Mathematics.float2*,
-    System.Int32*, Unity.Mathematics.int2*, int, float, float, int, int, Unity.Mathematics.int3*)
-  - UnityEditor.U2D.Animation.TriangulationUtility.TessellateBurst(Unity.Collections.Allocator,
-    Unity.Mathematics.float2*, int, Unity.Mathematics.int2*, int, Unity.Mathematics.float2*,
-    System.Int32*, Unity.Mathematics.int2*, int, Unity.Mathematics.int3*)
-  - UnityEditor.U2D.Animation.TriangulationUtility.ValidateCollinear(Unity.Mathematics.float2*,
-    int, float)
-  - UnityEditor.U2D.Aseprite.Common.FindTightRectJob - (IJobParallelFor)
-  - UnityEditor.U2D.Aseprite.Common.ImagePacker.BurstedBlit(UnityEngine.Color32*,
-    Unity.Mathematics.int4&, Unity.Mathematics.int4&, int, int, UnityEngine.Color32*)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Addition(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.BurnChannel(byte, byte)
-  - UnityEditor.U2D.Aseprite.PixelBlends.ClipColor(System.Single&, System.Single&,
-    System.Single&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.ColorBlend(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.ColorBurn(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.ColorDodge(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Darken(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Difference(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.DifferenceChannel(byte, byte)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Divide(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.DivideChannel(byte, byte)
-  - UnityEditor.U2D.Aseprite.PixelBlends.DivideUnsignedByte(byte, byte)
-  - UnityEditor.U2D.Aseprite.PixelBlends.DodgeChannel(byte, byte)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Exclusion(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.ExclusionChannel(byte, byte)
-  - UnityEditor.U2D.Aseprite.PixelBlends.GetLuminosity(float, float, float)
-  - UnityEditor.U2D.Aseprite.PixelBlends.GetSaturation(float, float, float)
-  - UnityEditor.U2D.Aseprite.PixelBlends.HardLight(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.HardLightChannel(byte, byte)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Hue(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Lighten(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Luminosity(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.MaxRef(System.Single&, System.Single&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.MinRef(System.Single&, System.Single&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Multiply(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.MultiplyUnsignedByte(byte, byte)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Normal(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Overlay(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Saturation(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Screen(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.ScreenUnsignedByte(byte, byte)
-  - UnityEditor.U2D.Aseprite.PixelBlends.SetLuminosity(System.Single&, System.Single&,
-    System.Single&, float)
-  - UnityEditor.U2D.Aseprite.PixelBlends.SetSaturation(System.Single&, System.Single&,
-    System.Single&, float)
-  - UnityEditor.U2D.Aseprite.PixelBlends.SoftLight(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.PixelBlends.SoftLightChannel(byte, byte)
-  - UnityEditor.U2D.Aseprite.PixelBlends.Subtract(UnityEngine.Color32&, UnityEngine.Color32&,
-    UnityEngine.Color32&)
-  - UnityEditor.U2D.Aseprite.TextureTasks.AddOpacity(Unity.Collections.NativeArray`1[UnityEngine.Color32]&,
-    float)
-  - UnityEditor.U2D.Aseprite.TextureTasks.FitRectInsideRect(UnityEngine.RectInt&,
-    UnityEngine.RectInt&)
-  - UnityEditor.U2D.Aseprite.TextureTasks.FlipTextureY(Unity.Collections.NativeArray`1[UnityEngine.Color32]&,
-    int, int)
-  - UnityEditor.U2D.Aseprite.TextureTasks.GetCombinedRect(Unity.Collections.NativeArray`1[UnityEngine.RectInt]&,
-    UnityEngine.RectInt&)
-  - UnityEditor.U2D.Aseprite.TextureTasks.MergeTextures(Unity.Collections.NativeArray`1[System.IntPtr]&,
-    Unity.Collections.NativeArray`1[UnityEngine.RectInt]&, Unity.Collections.NativeArray`1[UnityEditor.U2D.Aseprite.BlendModes]&,
-    UnityEditor.U2D.Aseprite.TextureTasks.MergeOutput&)
-  - UnityEditor.U2D.Common.FindTightRectJob - (IJobParallelFor)
-  - UnityEditor.U2D.Common.ImagePacker.BurstedBlit(Unity.Collections.NativeArray`1[UnityEngine.Color32]&,
-    Unity.Mathematics.int4&, Unity.Mathematics.int4&, int, int, Unity.Collections.NativeArray`1[UnityEngine.Color32]&)
-  - UnityEditor.U2D.PSD.ExtractLayerTask.ConvertBufferJob - (IJobParallelFor)
-  - UnityEditor.U2D.PSD.FlattenImageTask.FlattenImageInternalJob - (IJobParallelFor)
-  - UnityEngine.LightProbesQuery.LightProbesQueryDisposeJob - (IJob)
-  - UnityEngine.Rendering.ProbeGIBaking.CreateRayCastCommandsJob - (IJobParallelFor)
-  - UnityEngine.Rendering.ProbeGIBaking.PushOutGeometryJob - (IJobParallelFor)
-  - UnityEngine.Rendering.Universal.DecalCreateDrawCallSystem.DrawCallJob - (IJob)
-  - UnityEngine.Rendering.Universal.DecalUpdateCachedSystem.UpdateTransformsJob -
-    (IJobParallelForTransform)
-  - UnityEngine.Rendering.Universal.LightMinMaxZJob - (IJobFor)
-  - UnityEngine.Rendering.Universal.ReflectionProbeMinMaxZJob - (IJobFor)
-  - UnityEngine.Rendering.Universal.TileRangeExpansionJob - (IJobFor)
-  - UnityEngine.Rendering.Universal.TilingJob - (IJobFor)
-  - UnityEngine.Rendering.Universal.ZBinningJob - (IJobFor)
-  - UnityEngine.U2D.Animation.BoneDeformBatchedJob - (IJobParallelFor)
-  - UnityEngine.U2D.Animation.BurstedSpriteSkinUtilities.ValidateBoneWeights(UnityEngine.U2D.Animation.NativeCustomSlice`1[UnityEngine.BoneWeight]&,
-    int)
-  - UnityEngine.U2D.Animation.CalculateSpriteSkinAABBJob - (IJobParallelFor)
-  - UnityEngine.U2D.Animation.CopySpriteRendererBuffersJob - (IJobParallelFor)
-  - UnityEngine.U2D.Animation.FillPerSkinJobSingleThread - (IJob)
-  - UnityEngine.U2D.Animation.LocalToWorldTransformAccessJob - (IJobParallelForTransform)
-  - UnityEngine.U2D.Animation.PrepareDeformJob - (IJob)
-  - UnityEngine.U2D.Animation.SkinDeformBatchedJob - (IJobParallelFor)
-  - UnityEngine.U2D.Animation.UpdateBoundJob - (IJobParallelFor)
-  - UnityEngine.U2D.Animation.WorldToLocalTransformAccessJob - (IJobParallelForTransform)
-  - UnityEngine.U2D.SpriteShapeGenerator - (IJob)
-  - UnityEngine.U2D.SpriteShapeGenerator.UTessellator(UnityEngine.U2D.SpriteShapeSegment&,
-    Unity.Mathematics.float2*, int, System.UInt16*, System.Int32&, System.Byte*,
-    int, System.Int32&, Unity.Collections.Allocator)
-  - UnityEngine.UIElements.UIR.OpacityIdAccelerator.OpacityIdUpdateJob - (IJobParallelFor)
-  treeViewState:
-    scrollPos: {x: 0, y: 96}
-    m_SelectedIDs: 03000000
-    m_LastClickedID: 3
-    m_ExpandedIDs: ceffffffcfffffffd0ffffffd1ffffffd2ffffffd3ffffffd4ffffffd5ffffffd6ffffffd7ffffffd8ffffffd9ffffffdaffffffdbffffffdcffffffddffffffdeffffffdfffffffe0ffffffe1ffffffe2ffffffe3ffffffe4ffffffe5ffffffe6ffffffe7ffffffe8ffffffe9ffffffeaffffffebffffffecffffffedffffffeeffffffeffffffff0fffffff1fffffff2fffffff3fffffff4fffffff5fffffff6fffffff7fffffff8fffffff9fffffffafffffffbfffffffcfffffffdfffffffeffffffffffffff00000000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-  _isCompileError: 0
-  _prevWasCompileError: 0
-  _smellTest: 0
---- !u!114 &19
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1394,10 +372,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1490
-    y: 217
+    x: 396
+    y: 595
     width: 1264
-    height: 757
+    height: 950
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1411,29 +389,29 @@ MonoBehaviour:
   m_Recording: 1
   m_ActiveNativePlatformSupportModuleName: 
   m_AllModules:
-  - rid: 8550766955013079040
-  - rid: 8550766955013079041
-  - rid: 8550766955013079042
-  - rid: 8550766955013079043
-  - rid: 8550766955013079044
-  - rid: 8550766955013079045
-  - rid: 8550766955013079046
-  - rid: 8550766955013079047
-  - rid: 8550766955013079048
-  - rid: 8550766955013079049
-  - rid: 8550766955013079050
-  - rid: 8550766955013079051
-  - rid: 8550766955013079052
-  - rid: 8550766955013079053
-  - rid: 8550766955013079054
-  - rid: 8550766955013079055
-  - rid: 8550766955013079056
+  - rid: 4460847597412941824
+  - rid: 4460847597412941825
+  - rid: 4460847597412941826
+  - rid: 4460847597412941827
+  - rid: 4460847597412941828
+  - rid: 4460847597412941829
+  - rid: 4460847597412941830
+  - rid: 4460847597412941831
+  - rid: 4460847597412941832
+  - rid: 4460847597412941833
+  - rid: 4460847597412941834
+  - rid: 4460847597412941835
+  - rid: 4460847597412941836
+  - rid: 4460847597412941837
+  - rid: 4460847597412941838
+  - rid: 4460847597412941839
+  - rid: 4460847597412941840
   m_CallstackRecordMode: 1
   m_ClearOnPlay: 0
   references:
     version: 2
     RefIds:
-    - rid: 8550766955013079040
+    - rid: 4460847597412941824
       type: {class: CPUProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.CPUProfilerModule, UnityEditor.CoreModule,
@@ -1441,16 +419,16 @@ MonoBehaviour:
         m_PaneScroll: {x: 0, y: 0}
         m_ViewType: 0
         updateViewLive: 0
-        m_CurrentFrameIndex: 15575
+        m_CurrentFrameIndex: 70325
         m_HierarchyOverruledThreadFromSelection: 0
         m_ProfilerViewFilteringOptions: 1
         m_FrameDataHierarchyView:
           m_Serialized: 1
           m_TreeViewState:
             scrollPos: {x: 0, y: 0}
-            m_SelectedIDs: 48010000
-            m_LastClickedID: 328
-            m_ExpandedIDs: 04000000500000008b000000f1000000f800000005010000200100002f0100004101000045010000
+            m_SelectedIDs: 7e000000
+            m_LastClickedID: 126
+            m_ExpandedIDs: 04000000160000004c0000004f000000590000007e00000088000000d4000000d6000000db000000e6000000ea000000ed000000f6000000
             m_RenameOverlay:
               m_UserAcceptedRename: 0
               m_Name: 
@@ -1470,7 +448,7 @@ MonoBehaviour:
             m_SearchString: 
           m_MultiColumnHeaderState:
             m_Columns:
-            - width: 745
+            - width: 1401
               sortedAscending: 1
               headerContent:
                 m_Text: Overview
@@ -1896,10 +874,10 @@ MonoBehaviour:
                 m_SortedColumns: 03000000
           m_FullThreadName: Main Thread
           m_ThreadName: Main Thread
-          <threadId>k__BackingField: 13172
+          <threadId>k__BackingField: 14268
           <threadIndex>k__BackingField: 0
           m_GroupName: 
-    - rid: 8550766955013079041
+    - rid: 4460847597412941825
       type: {class: GPUProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.GPUProfilerModule, UnityEditor.CoreModule,
@@ -2237,13 +1215,13 @@ MonoBehaviour:
           <threadId>k__BackingField: 0
           <threadIndex>k__BackingField: -1
           m_GroupName: 
-    - rid: 8550766955013079042
+    - rid: 4460847597412941826
       type: {class: RenderingProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.RenderingProfilerModule, UnityEditor.CoreModule,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         m_PaneScroll: {x: 0, y: 0}
-    - rid: 8550766955013079043
+    - rid: 4460847597412941827
       type: {class: MemoryProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.MemoryProfilerModule, UnityEditor.CoreModule,
@@ -2273,7 +1251,7 @@ MonoBehaviour:
           oldMinSizes: 
           oldMaxSizes: 
           oldSplitSize: 0
-    - rid: 8550766955013079044
+    - rid: 4460847597412941828
       type: {class: AudioProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.AudioProfilerModule, UnityEditor.CoreModule,
@@ -2283,83 +1261,83 @@ MonoBehaviour:
         m_HighlightAudibleDSPChains: 1
         m_DSPGraphZoomFactor: 1
         m_DSPGraphHorizontalLayout: 0
-    - rid: 8550766955013079045
+    - rid: 4460847597412941829
       type: {class: VideoProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.VideoProfilerModule, UnityEditor.CoreModule,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         m_PaneScroll: {x: 0, y: 0}
-    - rid: 8550766955013079046
+    - rid: 4460847597412941830
       type: {class: PhysicsProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.PhysicsProfilerModule, UnityEditor.CoreModule,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         m_PaneScroll: {x: 0, y: 0}
-    - rid: 8550766955013079047
+    - rid: 4460847597412941831
       type: {class: Physics2DProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.Physics2DProfilerModule, UnityEditor.CoreModule,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         m_PaneScroll: {x: 0, y: 0}
-    - rid: 8550766955013079048
+    - rid: 4460847597412941832
       type: {class: UIProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.UIProfilerModule, UnityEditor.CoreModule,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         m_PaneScroll: {x: 0, y: 0}
-    - rid: 8550766955013079049
+    - rid: 4460847597412941833
       type: {class: UIDetailsProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.UIDetailsProfilerModule, UnityEditor.CoreModule,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         m_PaneScroll: {x: 0, y: 0}
-    - rid: 8550766955013079050
+    - rid: 4460847597412941834
       type: {class: GlobalIlluminationProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.GlobalIlluminationProfilerModule,
           UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         m_PaneScroll: {x: 0, y: 0}
-    - rid: 8550766955013079051
+    - rid: 4460847597412941835
       type: {class: VirtualTexturingProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.VirtualTexturingProfilerModule,
           UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         m_PaneScroll: {x: 0, y: 0}
         m_VTProfilerView:
-          rid: 8550766955013079057
-    - rid: 8550766955013079052
+          rid: 4460847597412941841
+    - rid: 4460847597412941836
       type: {class: MemoryProfilerModule, ns: Unity.Entities.Editor, asm: Unity.Entities.Editor}
       data:
         m_Identifier: Unity.Entities.Editor.MemoryProfilerModule, Unity.Entities.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    - rid: 8550766955013079053
+    - rid: 4460847597412941837
       type: {class: FileIOProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.FileIOProfilerModule, UnityEditor.CoreModule,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         m_PaneScroll: {x: 0, y: 0}
-    - rid: 8550766955013079054
+    - rid: 4460847597412941838
       type: {class: AssetLoadingProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_Identifier: UnityEditorInternal.Profiling.AssetLoadingProfilerModule, UnityEditor.CoreModule,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         m_PaneScroll: {x: 0, y: 0}
-    - rid: 8550766955013079055
+    - rid: 4460847597412941839
       type: {class: StructuralChangesProfilerModule, ns: Unity.Entities.Editor, asm: Unity.Entities.Editor}
       data:
         m_Identifier: Unity.Entities.Editor.StructuralChangesProfilerModule, Unity.Entities.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    - rid: 8550766955013079056
+    - rid: 4460847597412941840
       type: {class: RuntimeContentManagerProfilerModule, ns: , asm: Unity.Entities.Editor}
       data:
         m_Identifier: RuntimeContentManagerProfilerModule, Unity.Entities.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    - rid: 8550766955013079057
+    - rid: 4460847597412941841
       type: {class: VirtualTexturingProfilerView, ns: UnityEditor, asm: UnityEditor.CoreModule}
       data:
         m_SortAscending: 0
         m_SortedColumn: -1
---- !u!114 &20
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2379,10 +1357,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 73
-    width: 1138
-    height: 330
+    width: 840
+    height: 413
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2393,7 +1371,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &21
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2413,10 +1391,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1139
+    x: 2761
     y: 73
-    width: 190
-    height: 918
+    width: 293
+    height: 936
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2430,9 +1408,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4e8b0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: caf9ffff
+      m_SelectedIDs: 28b30000
+      m_LastClickedID: 45864
+      m_ExpandedIDs: dc91f7ff8043f8ff10f8f8ff86bcfcff3e84fdff468cfdff788cfdff7a8cfdff809bfdff382bfeff2e98feff4e98feff4e99feff1af2feff0af7feff0ef7feff52fbfeff56fbfeff688dffff928dffff948dffff9e8effff3290ffff0e95ffff1895ffffb496ffff509bffff309cfffffea2ffff42b8ffff36baffffcabbffff54bcffff5ce0ffff16fbffff84880000309400007695000078ab0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2448,7 +1426,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 13}
+        m_ClientGUIView: {fileID: 10}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -2456,7 +1434,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 5155d3121cedc06498180aca68c021fb
---- !u!114 &22
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2476,10 +1454,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1463
+    x: 3309
     y: 73
-    width: 456
-    height: 918
+    width: 530
+    height: 936
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2503,7 +1481,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &23
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2523,10 +1501,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1331
+    x: 3056
     y: 73
-    width: 130
-    height: 918
+    width: 251
+    height: 936
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2548,7 +1526,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Res/Prefab
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -2557,14 +1535,14 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\UnityWorkSpace\LearnDots2D1
+  m_LastProjectPath: F:\GitHubProject\DotsProject\LearnDots2D1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ce790000
     m_LastClickedID: 31182
-    m_ExpandedIDs: 00000000428b0000448b0000468b0000488b00004a8b00004c8b00004e8b0000
+    m_ExpandedIDs: 00000000de8a0000e08a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2592,23 +1570,23 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000428b0000448b0000468b0000488b00004a8b00004c8b00004e8b0000
+    m_ExpandedIDs: ffffffff00000000de8a0000e08a00004c8b0000568b00003c8d0000fa91000032920000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: MonoDemo
+      m_OriginalName: MonoDemo
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 37170
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 14}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -2648,7 +1626,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 223
---- !u!114 &24
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2668,10 +1646,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 424
-    width: 1138
-    height: 567
+    x: 1920
+    y: 507
+    width: 840
+    height: 502
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2688,7 +1666,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1138, y: 546}
+  m_TargetSize: {x: 1920, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2696,17 +1674,17 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
-  m_Stats: 1
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_Stats: 0
+  m_SelectedSizes: 0d000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -569
-    m_HBaseRangeMax: 569
-    m_VBaseRangeMin: -273
-    m_VBaseRangeMax: 273
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2724,29 +1702,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1138
-      height: 546
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 569, y: 273}
+      width: 840
+      height: 481
+    m_Scale: {x: 0.4375, y: 0.4375}
+    m_Translation: {x: 420, y: 240.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -569
-      y: -273
-      width: 1138
-      height: 546
+      x: -960
+      y: -549.7143
+      width: 1920
+      height: 1099.4286
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1138, y: 567}
+  m_defaultScale: 0.4375
+  m_LastWindowPixelSize: {x: 840, y: 502}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &25
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2766,10 +1744,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 73
-    width: 895
-    height: 330
+    width: 840
+    height: 413
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2810,7 +1788,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -3096,9 +2074,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 48, y: 48}
+      snapOffset: {x: 48, y: -251}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 2
       id: AINavigationOverlay
       index: 11
       layout: 4
@@ -3141,9 +2119,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 18.204445, y: 9.4633665, z: 0.005654478}
+    m_Target: {x: 14.755671, y: 7.923396, z: 7.923396}
     speed: 2
-    m_Value: {x: 18.204445, y: 9.4633665, z: 0.005654478}
+    m_Value: {x: 14.755671, y: 7.923396, z: 7.923396}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3193,9 +2171,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.434554
+    m_Target: 0.26879385
     speed: 2
-    m_Value: 9.434554
+    m_Value: 0.26879385
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -3213,7 +2191,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.11661317, y: 0.8733376, z: -0.25616026, w: -0.397574}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 

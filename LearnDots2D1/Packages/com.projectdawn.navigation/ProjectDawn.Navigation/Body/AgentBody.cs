@@ -21,7 +21,7 @@ namespace ProjectDawn.Navigation
         /// </summary>
         public float3 Destination;
         /// <summary>
-        /// The distance between the agent's position and the destination.
+        /// The distance between the agent's position and the destination. 
         /// With NavMesh this value will return partial remaining distance not full path.
         /// </summary>
         public float RemainingDistance;
