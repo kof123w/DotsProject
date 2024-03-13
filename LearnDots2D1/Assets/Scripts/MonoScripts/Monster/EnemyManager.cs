@@ -34,7 +34,7 @@ public class EnemyManager : UnitySingleton<EnemyManager>
     [SerializeField] private float MoveSpeed = 1.5f;
     private Transform m_enemyPoolTrans;
     private Transform m_worldTrans;
-    private int m_maxCreateCount = 5000; //最多创建的对象个数
+    private int m_maxCreateCount = 5000; 
     private int m_curCreateCount = 0;
     private GameObject EnemyPrefab;
     public Vector3 PlayerPos;
@@ -98,11 +98,8 @@ public class EnemyManager : UnitySingleton<EnemyManager>
                 continue; 
             }
 
-           // var dir = PlayerPos - enemy.trans.position;
-            /*Vector3 pos = enemy.trans.position +  
-            enemy.trans.position += d * dir.normalized * MoveSpeed; */
-             enemy.SetDestination(ref PlayerPos);
-             enemy.PlayAnimation(ref d);
+            enemy.SetDestination(ref PlayerPos);
+            enemy.PlayAnimation(ref d);
             CheckDir(ref enemy);
         }
     }

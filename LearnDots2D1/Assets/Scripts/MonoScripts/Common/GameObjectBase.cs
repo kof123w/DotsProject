@@ -4,7 +4,8 @@ public abstract class GameObjectBase
 {
     public Transform trans;
     public GameObject gobj;
-    private bool IsShow = false; 
+    private bool IsShow = false;
+    public int ObjectId = 0;
     
     public bool GetIsShow()
     {
